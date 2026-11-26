@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fonts.aivibe.cloud/schemas/aj-series-font-selector.schema.json",
+  "title": "AJ Series & Aaahhh Fonts Vibe Agentic Font Selector Schema (v3.0.0)",
+  "description": "Structured contract enabling AI coding/design agents, LLMs, OCR engines, and MCP servers to select valid AJ Series & Aaahhh Fonts Vibe typefaces, weights, Sound-of-Font phonetic modes, and 25+ native language stacks with zero latency overhead.",
+  "type": "object",
+  "required": ["family", "weight"],
+  "properties": {
+    "family": {
+      "type": "string",
+      "enum": ["AJ Shresti", "AJ Sahasvi", "AJ Anushya", "AJ Talin", "Aaahhh Fonts Vibe"]
+    },
+    "weight": {
+      "type": "integer",
+      "enum": [400, 600, 800]
+    },
+    "italic": {
+      "type": "boolean",
+      "default": false
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "en", "ta", "ta-sen", "hi", "hi-prathmic", "te", "ml", "kn", "bn", "mr", "pa",
+        "ar", "ur", "sa", "ja", "ru", "es", "fr", "de", "ms", "zh", "th", "am", "ko",
+        "it", "pt", "vi"
+      ],
+      "default": "en"
+    },
+    "soundOfFontMode": {
+      "type": "boolean",
+      "default": false,
+      "description": "Enable English-keyboard-to-regional-language phonetic shaping, auto-spell/grammar & inline next-word helptext."
+    },
+    "openTypeFeatures": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "kern", "mark", "calt", "liga", "dlig", "tnum", "pnum", "zero",
+          "ss01", "ss02", "ss05", "ss06", "ss07", "ss08", "ss09", "ss10",
+          "ss11", "ss12", "ss13", "ss14", "ss15", "ss16", "ss17", "ss18",
+          "case", "sups", "subs", "numr", "dnom", "frac"
+        ]
+      }
+    },
+    "accessibilityProfile": {
+      "type": "string",
+      "enum": ["standard", "wcag-aaa", "dyslexia-wide", "micro-9pt", "ocr-extreme"],
+      "default": "wcag-aaa"
+    },
+    "presentationEffect": {
+      "type": "string",
+      "enum": ["default-3d-mild-gradient-press", "clean", "paper-pressed-3d", "glossy-3d"],
+      "default": "default-3d-mild-gradient-press"
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "family": { "const": "AJ Sahasvi" } } },
+      "then": { "properties": { "italic": { "const": false } } }
+    }
+  ]
+}

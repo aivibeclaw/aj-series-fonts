@@ -1,0 +1,6 @@
+// AOSP Soong Blueprint to bundle AJ Series Enterprise Typefaces into /system/fonts/
+prebuilt_font {
+    name: "AJShresti-Regular.ttf",
+    src: "fonts/AJShresti-Regular.ttf",
+}
+// Include all 57 TTFs from system/fonts/ in product_packages for OEM & Enterprise Kiosk Android builds.

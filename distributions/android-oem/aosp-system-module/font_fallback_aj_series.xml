@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AJ Series Core OS Android Font Configuration — Mobile Crisp-Bold High-DPI OLED + Subtitles & Translation -->
+<familyset version="23">
+  <family name="sans-serif">
+    <font weight="400" style="normal">AJShresti-Regular.ttf</font>
+    <font weight="400" style="italic">AJShresti-Italic.ttf</font>
+    <font weight="500" style="normal">AJShresti-SemiBold.ttf</font>
+    <font weight="500" style="italic">AJShresti-SemiBoldItalic.ttf</font>
+    <font weight="600" style="normal">AJShresti-SemiBold.ttf</font>
+    <font weight="600" style="italic">AJShresti-SemiBoldItalic.ttf</font>
+    <font weight="700" style="normal">AJShresti-ExtraBold.ttf</font>
+    <font weight="700" style="italic">AJShresti-ExtraBoldItalic.ttf</font>
+    <font weight="800" style="normal">AJShresti-ExtraBold.ttf</font>
+    <font weight="800" style="italic">AJShresti-ExtraBoldItalic.ttf</font>
+  </family>
+  <alias name="sans-serif-medium" to="sans-serif" weight="600" />
+  <alias name="sans-serif-condensed" to="sans-serif" weight="600" />
+  <alias name="subtitles" to="sans-serif" weight="600" />
+  <alias name="captions" to="sans-serif" weight="600" />
+  <alias name="roboto" to="sans-serif" />
+  <family name="serif">
+    <font weight="400" style="normal">AJSahasvi-SemiBold.ttf</font>
+    <font weight="500" style="normal">AJSahasvi-SemiBold.ttf</font>
+    <font weight="600" style="normal">AJSahasvi-SemiBold.ttf</font>
+    <font weight="700" style="normal">AJSahasvi-ExtraBold.ttf</font>
+    <font weight="800" style="normal">AJSahasvi-ExtraBold.ttf</font>
+  </family>
+  <family name="aj-anushya">
+    <font weight="400" style="normal">AJAnushya-Regular.ttf</font>
+    <font weight="500" style="normal">AJAnushya-SemiBold.ttf</font>
+    <font weight="600" style="normal">AJAnushya-SemiBold.ttf</font>
+    <font weight="700" style="normal">AJAnushya-ExtraBold.ttf</font>
+    <font weight="800" style="normal">AJAnushya-ExtraBold.ttf</font>
+    <font weight="400" style="italic">AJAnushya-Italic.ttf</font>
+    <font weight="600" style="italic">AJAnushya-SemiBoldItalic.ttf</font>
+    <font weight="800" style="italic">AJAnushya-ExtraBoldItalic.ttf</font>
+  </family>
+  <family name="cursive">
+    <font weight="400" style="normal">AJTalin-Regular.ttf</font>
+    <font weight="500" style="normal">AJTalin-SemiBold.ttf</font>
+    <font weight="600" style="normal">AJTalin-SemiBold.ttf</font>
+    <font weight="700" style="normal">AJTalin-ExtraBold.ttf</font>
+    <font weight="800" style="normal">AJTalin-ExtraBold.ttf</font>
+    <font weight="400" style="italic">AJTalin-Italic.ttf</font>
+    <font weight="600" style="italic">AJTalin-SemiBoldItalic.ttf</font>
+    <font weight="800" style="italic">AJTalin-ExtraBoldItalic.ttf</font>
+  </family>
+  <family name="aaahhh-fonts-vibe">
+    <font weight="400" style="normal">AaahhhFontsVibe-Regular.ttf</font>
+    <font weight="500" style="normal">AaahhhFontsVibe-SemiBold.ttf</font>
+    <font weight="600" style="normal">AaahhhFontsVibe-SemiBold.ttf</font>
+    <font weight="700" style="normal">AaahhhFontsVibe-ExtraBold.ttf</font>
+    <font weight="800" style="normal">AaahhhFontsVibe-ExtraBold.ttf</font>
+    <font weight="400" style="italic">AaahhhFontsVibe-Italic.ttf</font>
+    <font weight="600" style="italic">AaahhhFontsVibe-SemiBoldItalic.ttf</font>
+    <font weight="800" style="italic">AaahhhFontsVibe-ExtraBoldItalic.ttf</font>
+  </family>
+</familyset>

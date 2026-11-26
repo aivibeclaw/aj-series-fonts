@@ -1,0 +1,35 @@
+{
+  "PASS": 752,
+  "WARN": 66,
+  "FAIL": 0,
+  "INFO": 0,
+  "SKIP": 437,
+  "fails": [],
+  "per_family": {
+    "aj-shresti": {
+      "PASS": 166,
+      "WARN": 15,
+      "FAIL": 0
+    },
+    "aj-sahasvi": {
+      "PASS": 88,
+      "WARN": 6,
+      "FAIL": 0
+    },
+    "aj-anushya": {
+      "PASS": 166,
+      "WARN": 15,
+      "FAIL": 0
+    },
+    "aj-talin": {
+      "PASS": 166,
+      "WARN": 15,
+      "FAIL": 0
+    },
+    "aaahhh-fonts-vibe": {
+      "PASS": 166,
+      "WARN": 15,
+      "FAIL": 0
+    }
+  }
+}

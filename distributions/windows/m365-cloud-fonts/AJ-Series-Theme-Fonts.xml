@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  Microsoft Office Theme Font Scheme — AJ Series Enterprise Typefaces v3.0.0
+  Drop into:
+    Windows: %APPDATA%\Microsoft\Templates\Document Themes\Theme Fonts\AJ-Series-Enterprise.xml
+    macOS  : ~/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/Theme Fonts/AJ-Series-Enterprise.xml
+  Automatically sets Word, PowerPoint & Excel Headings (MajorFont) to Bold AJ Sahasvi ExtraBold and Default Text (MinorFont) to AJ Shresti across all languages!
+-->
+<a:fontScheme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="AJ Series Enterprise">
+  <a:majorFont>
+    <a:latin typeface="AJ Sahasvi ExtraBold" />
+    <a:ea typeface="AJ Sahasvi ExtraBold" />
+    <a:cs typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Arab" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Deva" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Taml" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Telu" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Mlym" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Knda" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Guru" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Beng" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Cyrl" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Hans" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Thai" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Ethi" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Jpan" typeface="AJ Sahasvi ExtraBold" />
+    <a:font script="Hang" typeface="AJ Sahasvi ExtraBold" />
+  </a:majorFont>
+  <a:minorFont>
+    <a:latin typeface="AJ Shresti" />
+    <a:ea typeface="AJ Shresti" />
+    <a:cs typeface="AJ Shresti" />
+    <a:font script="Arab" typeface="AJ Shresti" />
+    <a:font script="Deva" typeface="AJ Shresti" />
+    <a:font script="Taml" typeface="AJ Shresti" />
+    <a:font script="Telu" typeface="AJ Shresti" />
+    <a:font script="Mlym" typeface="AJ Shresti" />
+    <a:font script="Knda" typeface="AJ Shresti" />
+    <a:font script="Guru" typeface="AJ Shresti" />
+    <a:font script="Beng" typeface="AJ Shresti" />
+    <a:font script="Cyrl" typeface="AJ Shresti" />
+    <a:font script="Hans" typeface="AJ Shresti" />
+    <a:font script="Thai" typeface="AJ Shresti" />
+    <a:font script="Ethi" typeface="AJ Shresti" />
+    <a:font script="Jpan" typeface="AJ Shresti" />
+    <a:font script="Hang" typeface="AJ Shresti" />
+  </a:minorFont>
+</a:fontScheme>

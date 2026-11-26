@@ -1,0 +1,53 @@
+/* ==========================================================================
+ * AJ Series — WCAG 2.2 AAA Accessibility & Dyslexia-Friendly Typography CSS
+ * ========================================================================== */
+
+.aj-a11y-reading {
+  font-family: "AJ Anushya", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.1875rem);
+  line-height: 1.62;
+  letter-spacing: 0.015em;
+  word-spacing: 0.08em;
+  max-width: 68ch;
+  font-variant-numeric: tabular-nums slashed-zero;
+  font-feature-settings: "kern" 1, "calt" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dyslexia & Low-Vision High-Legibility Mode (activates native OpenType ss02!) */
+.aj-a11y-dyslexia,
+[data-aj-a11y="dyslexia"] {
+  font-family: "AJ Anushya", sans-serif;
+  font-feature-settings: "ss02" 1, "tnum" 1, "zero" 1, "liga" 0;
+  letter-spacing: 0.04em;
+  word-spacing: 0.14em;
+  line-height: 1.72;
+}
+
+/* Small UI / Micro-Label Ergonomics (9pt–13pt App Icons & Badges) */
+.aj-a11y-micro {
+  font-family: "AJ Anushya", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+@media (prefers-contrast: more) {
+  .aj-effect-paper-pressed,
+  .aj-effect-glossy-3d {
+    text-shadow: none;
+    color: CanvasText;
+  }
+  .aj-body {
+    font-weight: 600;
+  }
+}
+
+@media (forced-colors: active) {
+  .aj-effect-paper-pressed,
+  .aj-effect-glossy-3d {
+    text-shadow: none;
+    forced-color-adjust: auto;
+  }
+}

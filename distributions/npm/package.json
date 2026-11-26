@@ -1,0 +1,46 @@
+{
+  "name": "@aivibe/aj-series-fonts",
+  "version": "3.0.0",
+  "type": "module",
+  "description": "AJ Series & Aaahhh Fonts Vibe (Sound of Font) \u2014 5 Canonical Families (27 Styles), 25+ Native Languages, Default 3D Mild-Gradient Press & Smart Phonetic Engine",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": "Aravind Jayamohan <aravind.j.naidu@gmail.com>",
+  "main": "./sound-of-font.js",
+  "module": "./sound-of-font.js",
+  "types": "./sound-of-font.d.ts",
+  "files": [
+    "LICENSE.md",
+    "index.css",
+    "3d-impressions.css",
+    "sri-manifest.json",
+    "sound-of-font.js",
+    "sound-of-font.d.ts",
+    "sound-of-font.ts"
+  ],
+  "exports": {
+    ".": {
+      "types": "./sound-of-font.d.ts",
+      "default": "./sound-of-font.js"
+    },
+    "./css": "./index.css",
+    "./3d": "./3d-impressions.css",
+    "./sri": "./sri-manifest.json",
+    "./sound-of-font": {
+      "types": "./sound-of-font.d.ts",
+      "default": "./sound-of-font.js"
+    },
+    "./sound-of-font.ts": "./sound-of-font.ts"
+  },
+  "keywords": [
+    "fonts",
+    "typography",
+    "aj-series",
+    "aaahhh-fonts-vibe",
+    "sound-of-font",
+    "colrv1",
+    "opentype-svg",
+    "3d-press",
+    "multilingual",
+    "ocr"
+  ]
+}

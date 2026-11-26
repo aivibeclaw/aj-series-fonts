@@ -1,0 +1,343 @@
+"""Phonetic + orthographic lexicon, corrections and context templates.
+
+Formats (space separated entries):
+  WORDS      native|alias,alias        ("_" stands for a space inside native)
+  TEMPLATES  native|roman  or  native  (roman is derived by stripping diacritics)
+
+Keep in sync with sound_of_font/engine/sound_of_font.ts.
+"""
+
+LANGUAGES = {
+    "en": "English", "ta": "Tamil", "ta-sen": "Sen Tamil", "hi": "Hindi",
+    "hi-prathmic": "Prathmic Hindi", "te": "Telugu", "ml": "Malayalam",
+    "kn": "Kannada", "bn": "Bengali", "mr": "Marathi", "pa": "Punjabi",
+    "ar": "Arabic", "ur": "Urdu", "sa": "Sanskrit", "ja": "Japanese",
+    "ru": "Russian", "es": "Spanish", "fr": "French", "de": "German",
+    "ms": "Malay", "zh": "Chinese", "th": "Thai", "am": "Amharic", "ko": "Korean",
+}
+
+LATIN_LANGUAGES = ("en", "es", "fr", "de", "ms")
+UNSPACED_LANGUAGES = ("zh", "ja", "th")
+CATEGORIES = ("leave_letter", "official_email", "invoice", "greeting", "erp_note")
+
+_TA_NUMBERS = (
+    ("ஒன்று", ("1u", "onnu", "ondru")),
+    ("இரண்டு", ("2u", "rendu", "irandu")),
+    ("மூன்று", ("3u", "moonu", "moondru")),
+    ("நான்கு", ("4u", "naalu", "naangu")),
+    ("ஐந்து", ("5u", "anju", "aindhu")),
+    ("ஆறு", ("6u", "aaru")),
+    ("ஏழு", ("7u", "ezhu")),
+    ("எட்டு", ("8u", "ettu")),
+    ("ஒன்பது", ("9u", "onbadhu")),
+    ("பத்து", ("10u", "pathu")),
+)
+_TA_NUMBER_MAP = {alias: native for native, aliases in _TA_NUMBERS for alias in aliases}
+NUMBER_SOUNDS = {"ta": _TA_NUMBER_MAP, "ta-sen": _TA_NUMBER_MAP}
+
+WORDS = {
+    "en": (
+        "hello thank thanks you please leave letter invoice payment greetings regards receive "
+        "request application permission accommodate necessary government weird separate definitely "
+        "business schedule document approval approved attached sincerely respectfully company "
+        "customer service delivery balance account manager important information"
+    ),
+    "ta": (
+        "வணக்கம்|vanakkam,vanakam,vannakkam,wanakkam நன்றி|nandri,nanri,nandree ஆம்|aam இல்லை|illai "
+        "தயவுசெய்து|thayavuseithu விடுப்பு|viduppu விண்ணப்பம்|vinnappam,vinappam பணிவுடன்|panivudan "
+        "நீங்கள்|neengal,ningal நான்|naan இன்று|indru,innikku சிங்கம்|singam இந்தியா|india,indhiya "
+        "அன்பு|anbu அம்மா|amma அப்பா|appa தமிழ்|tamil,thamizh சென்னை|chennai பள்ளி|palli "
+        "அலுவலகம்|aluvalagam வாழ்த்துக்கள்|vazhthukkal"
+    ),
+    "ta-sen": (
+        "வணக்கம்|vanakkam,vanakam,vannakkam,wanakkam நன்றி|nandri,nanri,nandree ஆம்|aam இல்லை|illai "
+        "விடுப்பு|viduppu விண்ணப்பம்|vinnappam,vinappam பணிவுடன்|panivudan நீங்கள்|neengal,ningal "
+        "நான்|naan இன்று|indru சிங்கம்|singam இந்தியா|india,indhiya அன்பு|anbu அன்னை|annai "
+        "தந்தை|thandhai தமிழ்|tamil,thamizh வாழ்த்துகள்|vazhthugal அலுவலகம்|aluvalagam செந்தமிழ்|senthamizh"
+    ),
+    "hi": (
+        "नमस्ते|namaste,namasthe नमस्कार|namaskar धन्यवाद|dhanyavad,dhanyawad कृपया|kripya हाँ|haan "
+        "नहीं|nahin,nahi मैं|main,mai हैं|hain है|hai हूँ|hoon,hun आप|aap भारत|bharat,india "
+        "आज|aaj कल|kal छुट्टी|chutti,chhutti सविनय|saviney,savinay आवेदन|aavedan शुभकामनाएँ|shubhkamnayen"
+    ),
+    "hi-prathmic": (
+        "नमस्ते|namaste,namasthe नमस्कार|namaskar धन्यवाद|dhanyavad कृपया|kripya हाँ|haan "
+        "नहीं|nahin,nahi मैं|main,mai हैं|hain है|hai आप|aap भारत|bharat,india घर|ghar पानी|paani आज|aaj छुट्टी|chutti"
+    ),
+    "te": (
+        "నమస్కారం|namaskaram ధన్యవాదాలు|dhanyavadalu అవును|avunu కాదు|kaadu సెలవు|selavu "
+        "నేను|nenu మీరు|meeru భారత్|bharat,india ఈరోజు|eeroju దయచేసి|dayachesi శుభాకాంక్షలు|subhakankshalu"
+    ),
+    "ml": (
+        "നമസ്കാരം|namaskaram നന്ദി|nandi അതെ|athe ഇല്ല|illa അവധി|avadhi "
+        "ഞാൻ|njan നിങ്ങൾ|ningal ഭാരതം|bharat,india ഇന്ന്|innu ദയവായി|dayavaayi ആശംസകൾ|aashamsakal"
+    ),
+    "kn": (
+        "ನಮಸ್ಕಾರ|namaskara ಧನ್ಯವಾದಗಳು|dhanyavadagalu ಹೌದು|haudu ಇಲ್ಲ|illa ರಜೆ|raje "
+        "ನಾನು|naanu ನೀವು|neevu ಭಾರತ|bharat,india ಇಂದು|indu ದಯವಿಟ್ಟು|dayavittu ಶುಭಾಶಯಗಳು|shubhaashayagalu"
+    ),
+    "bn": (
+        "নমস্কার|nomoskar,namaskar,nomoshkar ধন্যবাদ|dhonnobad,dhanyabad হ্যাঁ|hyan না|na ছুটি|chuti "
+        "আমি|ami আপনি|apni ভারত|bharat,india আজ|aaj বাংলা|bangla শুভেচ্ছা|shubhechha"
+    ),
+    "mr": (
+        "नमस्कार|namaskar धन्यवाद|dhanyavad होय|hoy नाही|nahi रजा|raja "
+        "मी|mi तुम्ही|tumhi भारत|bharat,india आज|aaj कृपया|kripaya शुभेच्छा|shubhechha"
+    ),
+    "pa": (
+        "ਸਤਿ_ਸ੍ਰੀ_ਅਕਾਲ|satsriakal ਧੰਨਵਾਦ|dhanvaad,dhannvad ਹਾਂ|haan ਨਹੀਂ|nahin ਛੁੱਟੀ|chhutti "
+        "ਮੈਂ|main ਤੁਸੀਂ|tusi ਭਾਰਤ|bharat,india ਅੱਜ|ajj ਕਿਰਪਾ|kirpa ਪੰਜਾਬੀ|punjabi"
+    ),
+    "ar": (
+        "مرحبا|marhaba,marhaban شكرا|shukran نعم|naam لا|laa إجازة|ijaza "
+        "السلام_عليكم|assalamualaikum أهلا|ahlan من_فضلك|minfadlik اليوم|alyawm طلب|talab"
+    ),
+    "ur": (
+        "سلام|salam آداب|adab,aadab شکریہ|shukriya ہاں|haan نہیں|nahin چھٹی|chutti "
+        "میں|main آپ|aap ہیں|hain پاکستان|pakistan بھائی|bhai خوش_آمدید|khushamdeed مہربانی|mehrbani"
+    ),
+    "sa": (
+        "नमस्कारः|namaskarah,namaskar नमस्ते|namaste धन्यवादः|dhanyavadah आम्|aam न|na अवकाशः|avakashah "
+        "अहम्|aham भवान्|bhavaan भारतम्|bharatam अद्य|adya कृपया|kripayaa स्वागतम्|svaagatam"
+    ),
+    "ja": (
+        "こんにちは|konnichiwa,konnichiha ありがとう|arigatou,arigato はい|hai いいえ|iie 休暇|kyuuka "
+        "日本|nihon,nippon 日本語|nihongo 東京|toukyou,tokyo 大阪|oosaka,osaka お願い|onegai 私|watashi"
+    ),
+    "ru": (
+        "привет|privet спасибо|spasibo да|da нет|net,nyet отпуск|otpusk "
+        "пожалуйста|pozhalujsta здравствуйте|zdravstvujte сегодня|segodnya заявка|zayavka хорошо|khorosho"
+    ),
+    "es": (
+        "hola gracias adiós|adios sí|si señor|senor señora|senora mañana|manana "
+        "día|dia días|dias permiso factura número|numero atención|atencion también|tambien más|mas cómo|como está|esta"
+    ),
+    "fr": (
+        "bonjour merci très|tres congé|conge madame monsieur été|ete "
+        "bientôt|bientot français|francais déjà|deja détail|detail détails|details pièce|piece reçu|recu vérifié|verifie"
+    ),
+    "de": (
+        "hallo danke für|fur Grüße|grusse,gruesse schön|schon,schoen Urlaub|urlaub "
+        "über|uber können|konnen,koennen möchte|mochte,moechte größer|grosser,groesser Straße|strasse,strase Prüfung|prufung,pruefung"
+    ),
+    "ms": "helo terima_kasih|terimakasih selamat sila cuti saya anda hari_ini|hariini permohonan bayaran",
+    "zh": (
+        "我|wo 你|ni 好|hao 你好|nihao 谢谢|xiexie 不客气|bukeqi 请|qing 中国|zhongguo 再见|zaijian "
+        "申请|shenqing 批准|pizhun 是|shi 不|bu 请假|qingjia 非常|feichang 很|hen 常|chang "
+        "帮助|bangzhu 感谢|ganxie 今天|jintian 明天|mingtian"
+    ),
+    "th": (
+        "สวัสดี|sawatdee,sawasdee ขอบคุณ|khopkhun ใช่|chai ไม่|mai ลา|laa "
+        "ฉัน|chan คุณ|khun วันนี้|wanni กรุณา|karuna ลาหยุด|layut"
+    ),
+    "am": (
+        "ሰላም|selam,salam አመሰግናለሁ|ameseginalehu አዎ|awo አይ|ay ፈቃድ|fekad "
+        "እባክዎ|ebakwo ሥራ|sira ዓለም|alem ጨረቃ|chereqa ጸሐይ|tsehay ነፃ|netsa"
+    ),
+    "ko": (
+        "안녕하세요|annyeonghaseyo,annyeong 감사합니다|gamsahamnida 네|ne 아니요|aniyo 휴가|hyuga "
+        "한국|hanguk 한국어|hangugeo 오늘|oneul 부탁|butak 신청|sincheong"
+    ),
+}
+
+TEMPLATES = {
+    "en": {
+        "leave_letter": "Respected Sir/Madam, I am writing to request leave for two days due to a personal reason. Kindly grant me leave. Thank you.",
+        "official_email": "Dear Sir/Madam, I hope this email finds you well. Please find the details attached. Kind regards.",
+        "invoice": "Invoice for services rendered. Kindly process the payment before the due date. Thank you for your business.",
+        "greeting": "Warm greetings to you and your family. Wishing you joy and success.",
+        "erp_note": "Stock has been received and verified. Please update the ledger.",
+    },
+    "ta": {
+        "leave_letter": "மதிப்பிற்குரிய|madhippirkuriya ஐயா,|aiya எனக்கு|enakku இரண்டு|irandu நாட்கள்|naatkal விடுப்பு|viduppu வழங்குமாறு|vazhangumaaru கேட்டுக்கொள்கிறேன்.|kettukkolgiren நன்றி.|nandri",
+        "official_email": "அன்புள்ள|anbulla ஐயா,|aiya விவரங்களை|vivarangalai இணைத்துள்ளேன்.|inaithullen நன்றி.|nandri",
+        "invoice": "சேவைக்கான|sevaikkaana விலைப்பட்டியல்.|vilaippattiyal தயவுசெய்து|thayavuseithu பணம்|panam செலுத்தவும்.|seluthavum",
+        "greeting": "உங்களுக்கும்|ungalukkum உங்கள்|ungal குடும்பத்தினருக்கும்|kudumbathinarukkum இனிய|iniya வாழ்த்துக்கள்.|vazhthukkal",
+        "erp_note": "சரக்கு|sarakku பெறப்பட்டு|perappattu சரிபார்க்கப்பட்டது.|saripaarkkappattadhu",
+    },
+    "ta-sen": {
+        "leave_letter": "மதிப்பிற்குரிய|madhippirkuriya ஐயா,|aiya அடியேனுக்கு|adiyenukku இரு|iru நாள்கள்|naalgal விடுப்பு|viduppu அளித்தருளுமாறு|alitharulumaaru பணிவுடன்|panivudan வேண்டுகிறேன்.|vendugiren நன்றி.|nandri",
+        "official_email": "பெருமதிப்பிற்குரியீர்,|perumadhippirkuriyeer விவரங்களை|vivarangalai இத்துடன்|ithudan இணைத்துள்ளேன்.|inaithullen நன்றி.|nandri",
+        "invoice": "ஆற்றிய|aatriya பணிக்கான|panikkaana விலைப்பட்டி.|vilaippatti தொகையைச்|thogaiyaich செலுத்த|selutha வேண்டுகிறோம்.|vendugirom",
+        "greeting": "தங்களுக்கும்|thangalukkum தங்கள்|thangal குடும்பத்தாருக்கும்|kudumbathaarukkum இனிய|iniya நல்வாழ்த்துகள்.|nalvazhthugal",
+        "erp_note": "சரக்கு|sarakku பெறப்பெற்றுச்|perappetruch சரிபார்க்கப்பட்டது.|saripaarkkappattadhu",
+    },
+    "hi": {
+        "leave_letter": "सविनय|saviney निवेदन|nivedan है|hai कि|ki मुझे|mujhe दो|do दिन|din की|ki छुट्टी|chutti प्रदान|pradaan करें।|karen धन्यवाद।|dhanyavad",
+        "official_email": "आदरणीय|aadarniya महोदय,|mahoday विवरण|vivaran संलग्न|sanlagna है।|hai धन्यवाद।|dhanyavad",
+        "invoice": "सेवाओं|sevaon का|ka बिल।|bill कृपया|kripya भुगतान|bhugtaan करें।|karen",
+        "greeting": "आपको|aapko और|aur आपके|aapke परिवार|parivaar को|ko हार्दिक|haardik शुभकामनाएँ।|shubhkamnayen",
+        "erp_note": "माल|maal प्राप्त|praapt और|aur सत्यापित|satyaapit हो|ho गया|gaya है।|hai",
+    },
+    "hi-prathmic": {
+        "leave_letter": "श्रीमान|shriman जी,|ji मुझे|mujhe दो|do दिन|din की|ki छुट्टी|chutti दें।|den धन्यवाद।|dhanyavad",
+        "official_email": "प्रिय|priya महोदय,|mahoday जानकारी|jaankari साथ|saath में|mein है।|hai",
+        "invoice": "यह|yah आपका|aapka बिल|bill है।|hai कृपया|kripya पैसे|paise दें।|den",
+        "greeting": "आपको|aapko बहुत|bahut बधाई।|badhaai",
+        "erp_note": "सामान|saamaan आ|aa गया|gaya है।|hai",
+    },
+    "te": {
+        "leave_letter": "గౌరవనీయులైన|gauravaneeyulaina అయ్యా,|ayya నాకు|naaku రెండు|rendu రోజులు|rojulu సెలవు|selavu మంజూరు|manjooru చేయగలరు.|cheyagalaru",
+        "official_email": "ప్రియమైన|priyamaina అయ్యా,|ayya వివరాలు|vivaraalu జతచేశాను.|jathachesaanu",
+        "invoice": "సేవల|sevala బిల్లు.|billu దయచేసి|dayachesi చెల్లించండి.|chellinchandi",
+        "greeting": "మీకు|meeku హృదయపూర్వక|hrudayapoorvaka శుభాకాంక్షలు.|subhakankshalu",
+        "erp_note": "సరుకు|saruku అందింది.|andindi",
+    },
+    "ml": {
+        "leave_letter": "ബഹുമാനപ്പെട്ട|bahumaanappetta സർ,|sar എനിക്ക്|enikku രണ്ട്|randu ദിവസത്തെ|divasathe അവധി|avadhi അനുവദിക്കണം.|anuvadikkanam",
+        "official_email": "പ്രിയ|priya സർ,|sar വിശദാംശങ്ങൾ|vishadaamshangal ചേർക്കുന്നു.|cherkkunnu",
+        "invoice": "സേവനങ്ങളുടെ|sevanangalude ബിൽ.|bill ദയവായി|dayavaayi പണമടയ്ക്കുക.|panamadaykkuka",
+        "greeting": "നിങ്ങൾക്ക്|ningalkku ഹൃദയംനിറഞ്ഞ|hridayamniranja ആശംസകൾ.|aashamsakal",
+        "erp_note": "ചരക്ക്|charakku ലഭിച്ചു.|labhichu",
+    },
+    "kn": {
+        "leave_letter": "ಮಾನ್ಯರೇ,|maanyare ನನಗೆ|nanage ಎರಡು|eradu ದಿನಗಳ|dinagala ರಜೆ|raje ಮಂಜೂರು|manjooru ಮಾಡಿ.|maadi",
+        "official_email": "ಆತ್ಮೀಯರೇ,|aatmeeyare ವಿವರಗಳನ್ನು|vivaragalannu ಲಗತ್ತಿಸಿದ್ದೇನೆ.|lagattisiddene",
+        "invoice": "ಸೇವೆಗಳ|sevegala ಬಿಲ್.|bill ದಯವಿಟ್ಟು|dayavittu ಪಾವತಿಸಿ.|paavatisi",
+        "greeting": "ನಿಮಗೆ|nimage ಹಾರ್ದಿಕ|haardika ಶುಭಾಶಯಗಳು.|shubhaashayagalu",
+        "erp_note": "ಸರಕು|saraku ಸ್ವೀಕರಿಸಲಾಗಿದೆ.|sveekarisalaagide",
+    },
+    "bn": {
+        "leave_letter": "মাননীয়|mananiyo মহাশয়,|mohashoy আমাকে|amake দুই|dui দিনের|diner ছুটি|chuti মঞ্জুর|monjur করুন।|korun",
+        "official_email": "প্রিয়|priyo মহাশয়,|mohashoy বিবরণ|biboron সংযুক্ত|songjukto করা|kora হলো।|holo",
+        "invoice": "পরিষেবার|porishebar বিল।|bill অনুগ্রহ|onugroho করে|kore পরিশোধ|porishodh করুন।|korun",
+        "greeting": "আপনাকে|apnake আন্তরিক|antorik শুভেচ্ছা।|shubhechha",
+        "erp_note": "মাল|maal গ্রহণ|grohon করা|kora হয়েছে।|hoyeche",
+    },
+    "mr": {
+        "leave_letter": "आदरणीय|aadarniya महोदय,|mahoday मला|mala दोन|don दिवसांची|divasanchi रजा|raja मंजूर|manjoor करावी.|karaavi",
+        "official_email": "प्रिय|priya महोदय,|mahoday तपशील|tapshil सोबत|sobat जोडला|jodla आहे.|aahe",
+        "invoice": "सेवांचे|sevanche बिल.|bill कृपया|kripya पैसे|paise भरा.|bhara",
+        "greeting": "आपणास|aapnaas हार्दिक|haardik शुभेच्छा.|shubhechha",
+        "erp_note": "माल|maal मिळाला|milala आहे.|aahe",
+    },
+    "pa": {
+        "leave_letter": "ਸਤਿਕਾਰਯੋਗ|satkaaryog ਸ੍ਰੀਮਾਨ_ਜੀ,|shrimaanji ਮੈਨੂੰ|mainu ਦੋ|do ਦਿਨ|din ਦੀ|di ਛੁੱਟੀ|chhutti ਦਿੱਤੀ|ditti ਜਾਵੇ।|jaave",
+        "official_email": "ਪਿਆਰੇ|pyaare ਸ੍ਰੀਮਾਨ,|shrimaan ਵੇਰਵੇ|verve ਨੱਥੀ|natthi ਹਨ।|han",
+        "invoice": "ਸੇਵਾਵਾਂ|sevaavaan ਦਾ|da ਬਿੱਲ।|bill ਕਿਰਪਾ|kirpa ਕਰਕੇ|karke ਭੁਗਤਾਨ|bhugtaan ਕਰੋ।|karo",
+        "greeting": "ਤੁਹਾਨੂੰ|tuhaanu ਬਹੁਤ|bahut ਵਧਾਈਆਂ।|vadhaaiyaan",
+        "erp_note": "ਸਮਾਨ|samaan ਮਿਲ|mil ਗਿਆ|gia ਹੈ।|hai",
+    },
+    "ar": {
+        "leave_letter": "السيد|alsayyid المحترم،|almuhtaram أرجو|arju منحي|manhi إجازة|ijaza لمدة|limuddat يومين.|yawmayn",
+        "official_email": "عزيزي|azizi السيد،|alsayyid تجدون|tajidun التفاصيل|altafasil مرفقة.|murfaqa",
+        "invoice": "فاتورة|fatura الخدمات.|alkhadamat يرجى|yurja سداد|sadad المبلغ.|almablagh",
+        "greeting": "أطيب|atyab التحيات|altahiyyat لكم.|lakum",
+        "erp_note": "تم|tamma استلام|istilam البضاعة.|albidaa",
+    },
+    "ur": {
+        "leave_letter": "جناب|janab عالی،|aali مجھے|mujhe دو|do دن|din کی|ki چھٹی|chutti عنایت|inayat فرمائیں۔|farmaayen",
+        "official_email": "محترم|mohtaram جناب،|janab تفصیلات|tafseelat منسلک|munsalik ہیں۔|hain",
+        "invoice": "خدمات|khidmaat کا|ka بل۔|bill براہ|barah کرم|karam ادائیگی|adaaigi کریں۔|karen",
+        "greeting": "آپ|aap کو|ko دلی|dili مبارکباد۔|mubarakbad",
+        "erp_note": "سامان|saamaan موصول|mausool ہو|ho گیا|gaya ہے۔|hai",
+    },
+    "sa": {
+        "leave_letter": "मान्यवर,|maanyavara मह्यं|mahyam दिनद्वयस्य|dinadvayasya अवकाशं|avakasham ददातु|dadaatu भवान्।|bhavaan",
+        "official_email": "प्रिय|priya महोदय,|mahodaya विवरणं|vivaranam संलग्नम्|samlagnam अस्ति।|asti",
+        "invoice": "सेवायाः|sevaayaah देयकम्।|deyakam कृपया|kripayaa धनं|dhanam ददातु।|dadaatu",
+        "greeting": "भवते|bhavate शुभकामनाः।|shubhakaamanaah",
+        "erp_note": "वस्तूनि|vastooni प्राप्तानि।|praaptaani",
+    },
+    "ja": {
+        "leave_letter": "拝啓、|haikei 私用の|shiyouno ため|tame 二日間の|futsukakanno 休暇を|kyuukawo お願い|onegai いたします。|itashimasu",
+        "official_email": "お世話に|osewani なっております。|natteorimasu 詳細を|shousaiwo 添付します。|tenpushimasu",
+        "invoice": "ご請求書です。|goseikyuushodesu お支払いを|oshiharaiwo お願いします。|onegaishimasu",
+        "greeting": "ご家族の|gokazokuno 皆様に|minasamani ご多幸を|gotakouwo お祈りします。|oinorishimasu",
+        "erp_note": "在庫を|zaikowo 受領しました。|juryoushimashita",
+    },
+    "ru": {
+        "leave_letter": "Уважаемый|uvazhaemyj руководитель,|rukovoditel прошу|proshu предоставить|predostavit мне|mne отпуск|otpusk на|na два|dva дня.|dnya",
+        "official_email": "Уважаемый|uvazhaemyj коллега,|kollega подробности|podrobnosti во|vo вложении.|vlozhenii",
+        "invoice": "Счёт|schet за|za услуги.|uslugi Просим|prosim произвести|proizvesti оплату.|oplatu",
+        "greeting": "Сердечно|serdechno поздравляем|pozdravlyaem вас.|vas",
+        "erp_note": "Товар|tovar получен|poluchen и|i проверен.|proveren",
+    },
+    "es": {
+        "leave_letter": "Estimado señor, solicito un permiso de dos días por motivos personales. Muchas gracias.",
+        "official_email": "Estimado señor, adjunto encontrará los detalles. Saludos cordiales.",
+        "invoice": "Factura por servicios prestados. Por favor realice el pago.",
+        "greeting": "Un cordial saludo para usted y su familia.",
+        "erp_note": "Mercancía recibida y verificada.",
+    },
+    "fr": {
+        "leave_letter": "Monsieur, je sollicite un congé de deux jours pour raison personnelle. Cordialement.",
+        "official_email": "Monsieur, veuillez trouver les détails en pièce jointe. Cordialement.",
+        "invoice": "Facture pour les services rendus. Merci de procéder au paiement.",
+        "greeting": "Meilleurs vœux à vous et à votre famille.",
+        "erp_note": "Marchandise reçue et vérifiée.",
+    },
+    "de": {
+        "leave_letter": "Sehr geehrte Damen und Herren, ich bitte um zwei Tage Urlaub aus persönlichen Gründen. Vielen Dank.",
+        "official_email": "Sehr geehrte Damen und Herren, die Details finden Sie im Anhang. Mit freundlichen Grüßen.",
+        "invoice": "Rechnung für erbrachte Leistungen. Bitte überweisen Sie den Betrag.",
+        "greeting": "Herzliche Grüße an Sie und Ihre Familie.",
+        "erp_note": "Ware erhalten und geprüft.",
+    },
+    "ms": {
+        "leave_letter": "Tuan yang dihormati, saya memohon cuti selama dua hari atas urusan peribadi. Terima kasih.",
+        "official_email": "Tuan yang dihormati, butiran dilampirkan bersama. Sekian, terima kasih.",
+        "invoice": "Invois untuk perkhidmatan. Sila jelaskan bayaran.",
+        "greeting": "Salam sejahtera buat anda sekeluarga.",
+        "erp_note": "Stok telah diterima dan disahkan.",
+    },
+    "zh": {
+        "leave_letter": "尊敬的|zunjingde 领导，|lingdao 因个人原因|yingerenyuanyin 我想|woxiang 请假|qingjia 两天。|liangtian 谢谢。|xiexie",
+        "official_email": "您好，|ninhao 详情|xiangqing 请见|qingjian 附件。|fujian",
+        "invoice": "服务|fuwu 发票。|fapiao 请|qing 按时|anshi 付款。|fukuan",
+        "greeting": "祝您|zhunin 和家人|hejiaren 幸福安康。|xingfuankang",
+        "erp_note": "货物|huowu 已收到|yishoudao 并核对。|binghedui",
+    },
+    "th": {
+        "leave_letter": "เรียน|rian หัวหน้า|huana ข้าพเจ้า|khaphachao ขอ|kho ลาหยุด|layut สองวัน|songwan",
+        "official_email": "เรียน|rian ท่าน|than รายละเอียด|railaiat ตามเอกสารแนบ|tamekkasannaep",
+        "invoice": "ใบแจ้งหนี้|baichaengni กรุณา|karuna ชำระเงิน|chamrangoen",
+        "greeting": "ขอให้|khohai ท่าน|than มีความสุข|mikhwamsuk",
+        "erp_note": "ได้รับ|dairap สินค้า|sinkha แล้ว|laeo",
+    },
+    "am": {
+        "leave_letter": "ውድ|wid ኃላፊ፣|halafi ለሁለት|lehulet ቀናት|qenat ፈቃድ|fekad እንዲሰጠኝ|endiseten እጠይቃለሁ።|eteyqalehu",
+        "official_email": "ውድ|wid ጌታዬ፣|getaye ዝርዝሩ|zirziru ተያይዟል።|teyayzwal",
+        "invoice": "የአገልግሎት|yeageliglot ደረሰኝ።|deresegn እባክዎ|ebakwo ይክፈሉ።|yikfelu",
+        "greeting": "መልካም|melkam ምኞት|mignot ለእርስዎ።|lerswo",
+        "erp_note": "እቃው|eqaw ደርሷል።|derswal",
+    },
+    "ko": {
+        "leave_letter": "존경하는|jongyeonghaneun 팀장님,|timjangnim 개인|gaein 사정으로|sajeongeuro 이틀|iteul 휴가를|hyugareul 신청합니다.|sincheonghamnida",
+        "official_email": "안녕하세요,|annyeonghaseyo 자세한|jasehan 내용을|naeyongeul 첨부합니다.|cheombuhamnida",
+        "invoice": "서비스|seobiseu 청구서입니다.|cheongguseoimnida 결제|gyeolje 부탁드립니다.|butakdeurimnida",
+        "greeting": "가정에|gajeonge 행복이|haengbogi 가득하길|gadeukhagil 바랍니다.|baramnida",
+        "erp_note": "재고가|jaegoga 입고되었습니다.|ipgodoeeotseumnida",
+    },
+}
+
+# Checked in this order; the first category with a matching keyword wins.
+HEADING_KEYWORDS = (
+    ("invoice", ("invoice", "bill", "payment", "receipt", "fintech", "விலைப்பட்டி", "बिल", "चालान", "فاتورة", "請求", "счёт", "factura", "facture", "rechnung", "invois", "发票", "청구")),
+    ("erp_note", ("erp", "stock", "inventory", "purchase order", "சரக்கு", "भंडार")),
+    ("official_email", ("email", "e-mail", "mail", "மின்னஞ்சல்", "ईमेल")),
+    ("greeting", ("greeting", "greetings", "wishes", "வாழ்த்து", "शुभकामना", "बधाई")),
+    ("leave_letter", ("leave", "application", "permission", "request", "விடுப்பு", "விண்ணப்பம்", "छुट्टी", "अवकाश", "आवेदन", "సెలవు", "അവധി", "ರಜೆ", "ছুটি", "रजा", "ਛੁੱਟੀ", "إجازة", "چھٹی", "休暇", "отпуск", "permiso", "vacaciones", "congé", "urlaub", "cuti", "请假", "申请", "ใบลา", "ลาหยุด", "ፈቃድ", "휴가")),
+)
+
+EN_CORRECTIONS = {
+    "i": "I", "im": "I'm", "recieve": "receive", "recieved": "received", "teh": "the",
+    "adress": "address", "seperate": "separate", "definately": "definitely", "definitly": "definitely",
+    "accomodate": "accommodate", "acommodate": "accommodate",
+    "neccessary": "necessary", "necesary": "necessary",
+    "goverment": "government", "governmant": "government",
+    "wierd": "weird", "occurence": "occurrence", "embarass": "embarrass",
+    "priviledge": "privilege", "calender": "calendar", "maintainance": "maintenance",
+    "buisness": "business", "enviroment": "environment",
+    "occured": "occurred", "untill": "until", "becuase": "because", "thier": "their",
+    "freind": "friend", "beleive": "believe", "acheive": "achieve",
+    "tommorow": "tomorrow", "dont": "don't", "doesnt": "doesn't", "wont": "won't", "cant": "can't",
+    "leav": "leave", "requst": "request", "pls": "please",
+}
+
+# Short everyday words that Space must never expand into a template word.
+EN_COMMON_WORDS = frozenset(
+    "a i an the to of in on is am are my me we be as at by do he it no or so up us if "
+    "for and but not you can may was has had our all any get one two day per her his "
+    "its who how why now yes see let new out off own say she too use".split()
+)

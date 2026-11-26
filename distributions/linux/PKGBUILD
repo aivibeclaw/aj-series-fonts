@@ -1,0 +1,19 @@
+# Maintainer: Aravind Jayamohan <aravind.j.naidu@gmail.com>
+pkgname=ttf-aj-series
+pkgver=3.0.0
+pkgrel=1
+pkgdesc='AJ Series & Aaahhh Fonts Vibe Enterprise Typefaces (5 families, 27 styles, Default 3D Press, 25+ languages)'
+arch=('any')
+url='https://fonts.aivibe.cloud'
+license=('custom:Aivibe-Open-Ecosystem-NoMod-NoResale-3.0')
+depends=('fontconfig')
+package() {
+  install -d "$pkgdir/usr/share/fonts/TTF/aj-series" "$pkgdir/etc/fonts/conf.d"
+  if [ -d "$startdir/../../dist" ]; then
+    install -m644 "$startdir"/../../dist/*/ttf/*.ttf "$pkgdir/usr/share/fonts/TTF/aj-series/"
+    install -m644 "$startdir/01-aj-shresti-default.conf" "$pkgdir/etc/fonts/conf.d/"
+  else
+    install -m644 "$startdir"/dist/*/ttf/*.ttf "$pkgdir/usr/share/fonts/TTF/aj-series/"
+    install -m644 "$startdir/distributions/linux/01-aj-shresti-default.conf" "$pkgdir/etc/fonts/conf.d/"
+  fi
+}

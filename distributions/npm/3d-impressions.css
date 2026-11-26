@@ -1,0 +1,5 @@
+/* AJ Series & Aaahhh Fonts Vibe v3.0.0 — Named CPAL 3D Mild-Gradient Press Palette Profiles (All 5 Families) */
+@font-palette-values --aj-press-cotton { font-family: 'AJ Shresti', 'AJ Sahasvi', 'AJ Anushya', 'AJ Talin', 'Aaahhh Fonts Vibe'; base-palette: 0; }
+@font-palette-values --aj-press-dark   { font-family: 'AJ Shresti', 'AJ Sahasvi', 'AJ Anushya', 'AJ Talin', 'Aaahhh Fonts Vibe'; base-palette: 1; }
+@font-palette-values --aj-press-linen  { font-family: 'AJ Shresti', 'AJ Sahasvi', 'AJ Anushya', 'AJ Talin', 'Aaahhh Fonts Vibe'; base-palette: 2; }
+@font-palette-values --aj-press-gold   { font-family: 'AJ Shresti', 'AJ Sahasvi', 'AJ Anushya', 'AJ Talin', 'Aaahhh Fonts Vibe'; base-palette: 3; }

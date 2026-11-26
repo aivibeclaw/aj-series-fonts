@@ -1,0 +1,93 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "ajSeries": {
+    "meta": {
+      "version": { "$value": "3.0.0", "$type": "string" },
+      "owner": { "$value": "Aravind Jayamohan, India", "$type": "string" },
+      "signingEmail": { "$value": "aravind.j.naidu@gmail.com", "$type": "string" },
+      "ownerEmails": { "$value": ["aravind.j.naidu@gmail.com", "aravind@aivibe.in", "aravindjayamohan@ymail.com"], "$type": "other" },
+      "authorizedLicensees": {
+        "aivibe": { "$value": "Aivibe Software Services Private Limited, Chennai", "$type": "string" },
+        "ajair": { "$value": "AjAir Tech Mobility LLP", "$type": "string" },
+        "qraise": { "$value": "QRaise Structures", "$type": "string" }
+      }
+    },
+    "fontFamily": {
+      "heading": { "$value": ["AJ Shresti", "-apple-system", "BlinkMacSystemFont", "sans-serif"], "$type": "fontFamily" },
+      "subheading": { "$value": ["AJ Sahasvi", "AJ Shresti", "Georgia", "serif"], "$type": "fontFamily" },
+      "body": { "$value": ["AJ Anushya", "-apple-system", "BlinkMacSystemFont", "sans-serif"], "$type": "fontFamily" },
+      "script": { "$value": ["AJ Talin", "AJ Anushya", "cursive"], "$type": "fontFamily" },
+      "soundOfFont": { "$value": ["Aaahhh Fonts Vibe", "AJ Anushya", "-apple-system", "sans-serif"], "$type": "fontFamily" }
+    },
+    "fontWeight": {
+      "regular": { "$value": 400, "$type": "fontWeight" },
+      "boldL1": { "$value": 600, "$type": "fontWeight" },
+      "boldL2": { "$value": 800, "$type": "fontWeight" }
+    },
+    "metrics": {
+      "upm": { "$value": 1000, "$type": "number" },
+      "capHeight": { "$value": 720, "$type": "number" },
+      "baseline": { "$value": 0, "$type": "number" },
+      "descender": { "$value": -180, "$type": "number" },
+      "xHeight": {
+        "shresti": { "$value": 534, "$type": "number" },
+        "sahasvi": { "$value": 516, "$type": "number" },
+        "anushya": { "$value": 556, "$type": "number" },
+        "talin": { "$value": 492, "$type": "number" },
+        "aaahhhFontsVibe": { "$value": 558, "$type": "number" }
+      }
+    },
+    "typography": {
+      "heroDisplay": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.heading}",
+          "fontWeight": "{ajSeries.fontWeight.boldL2}",
+          "fontSize": "3rem",
+          "lineHeight": 1.12,
+          "letterSpacing": "-0.015em"
+        }
+      },
+      "sectionSubheading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.subheading}",
+          "fontWeight": "{ajSeries.fontWeight.boldL1}",
+          "fontSize": "1.5rem",
+          "lineHeight": 1.25,
+          "letterSpacing": "0.03em"
+        }
+      },
+      "bodyReading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.body}",
+          "fontWeight": "{ajSeries.fontWeight.regular}",
+          "fontSize": "1rem",
+          "lineHeight": 1.6,
+          "letterSpacing": "0.01em"
+        }
+      },
+      "microAppLabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.body}",
+          "fontWeight": "{ajSeries.fontWeight.boldL1}",
+          "fontSize": "0.6875rem",
+          "lineHeight": 1.25,
+          "letterSpacing": "0.02em"
+        }
+      },
+      "editorialSignature": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.script}",
+          "fontWeight": "{ajSeries.fontWeight.regular}",
+          "fontSize": "2rem",
+          "lineHeight": 1.35,
+          "letterSpacing": "0em"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "3.0.0",
+  "pack": "aj-series-fintech-erp-global-ledger",
+  "owner": "Aravind Jayamohan, India <aravind.j.naidu@gmail.com>",
+  "license": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.0",
+  "targetPlatforms": ["SAP Fiori", "Oracle NetSuite", "Odoo", "ERPNext", "Zoho Books", "Stripe/Razorpay Invoices", "Core Banking PDFs"],
+  "tabularNumeralSpec": {
+    "advanceWidthUPM": 448,
+    "openTypeFeatures": ["tnum", "zero", "ss05"],
+    "numericGuardInSoundOfFont": ["1 -> 1", "Rs1 -> Rs1", "Rs.1,250.50/- -> Rs.1,250.50/-", "1u/onnu/ondru -> ஒன்று (ta)"]
+  },
+  "nativeCurrencies28": [
+    "₹", "$", "€", "£", "¥", "₩", "⃁", "⃃", "₿", "฿", "₫", "₺", "₽",
+    "₱", "₦", "₪", "₴", "₵", "₸", "₼", "₾", "¢", "¤", "₡", "₨", "₭", "₮", "﷼"
+  ],
+  "roleMapping": {
+    "invoiceHeader": { "family": "AJ Sahasvi", "weight": 800 },
+    "ledgerTable": { "family": "AJ Shresti", "weight": 400, "features": ["tnum", "ss05"] },
+    "denseTermsAndRegulatory": { "family": "AJ Anushya", "weight": 400 },
+    "authorizedSignatory": { "family": "AJ Talin", "weight": 600, "features": ["calt"] },
+    "multilingualNarration": { "family": "Aaahhh Fonts Vibe", "weight": 400 }
+  }
+}

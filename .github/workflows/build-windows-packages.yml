@@ -1,0 +1,168 @@
+name: Build Headless Windows MSI & MSIX System Font Packages
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows-core-fonts:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout AJ Series Fonts
+        uses: actions/checkout@v4
+
+      - name: Stage All 21 Canonical Default 3D Paper-Press TTFs
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path distributions/windows/fonts | Out-Null
+          New-Item -ItemType Directory -Force -Path distributions/windows/msix-store/Assets/Fonts | Out-Null
+          Get-ChildItem -Path dist -Recurse -Filter *.ttf | ForEach-Object {
+            Copy-Item $_.FullName -Destination distributions/windows/fonts/ -Force
+            Copy-Item $_.FullName -Destination distributions/windows/msix-store/Assets/Fonts/ -Force
+          }
+          $cnt = (Get-ChildItem distributions/windows/fonts/*.ttf).Count
+          Write-Host "Staged $cnt canonical TTF files."
+          if ($cnt -ne 21) { throw "Expected 21 canonical TTFs, got $cnt" }
+
+      - name: Build Zero-Icon Windows Core MSI (WiX v4 — AJ Shresti System Default)
+        shell: pwsh
+        run: |
+          dotnet tool install --global wix --version 5.0.2
+          cd distributions/windows
+          wix build AJ-Series-Fonts.wxs -o AJ-Series-Fonts-v2.1.0-Windows-Core.msi
+          Get-Item AJ-Series-Fonts-v2.1.0-Windows-Core.msi
+
+      - name: Build Zero-Icon Microsoft Store Headless MSIX (uap7:sharedFonts)
+        shell: pwsh
+        run: |
+          $makeappx = (Get-ChildItem "C:\Program Files (x86)\Windows Kits\10\bin\*\x64\makeappx.exe" | Sort-Object FullName -Descending | Select-Object -First 1).FullName
+          & $makeappx pack /d distributions/windows/msix-store /p distributions/windows/AJ-Series-Fonts-v2.1.0-Store-Headless.msix /o
+          Get-Item distributions/windows/AJ-Series-Fonts-v2.1.0-Store-Headless.msix
+
+      - name: Build Complete Microsoft Store Font App + SharedFonts MSIX & MSIXUPLOAD
+        shell: pwsh
+        run: |
+          $storeDir = "distributions/windows/msix-store-app"
+          New-Item -ItemType Directory -Force -Path "$storeDir/Assets/Fonts" | Out-Null
+          Copy-Item distributions/windows/msix-store/Assets/*.png "$storeDir/Assets/" -Force
+          Copy-Item distributions/windows/fonts/*.ttf "$storeDir/Assets/Fonts/" -Force
+
+          # Build lightweight native WinForms/Win32 Store companion app (locale-smart en-IN/System Culture!)
+          New-Item -ItemType Directory -Force -Path "distributions/windows/store-src" | Out-Null
+          @'
+          <Project Sdk="Microsoft.NET.Sdk">
+            <PropertyGroup>
+              <OutputType>WinExe</OutputType>
+              <TargetFramework>net8.0-windows</TargetFramework>
+              <UseWindowsForms>true</UseWindowsForms>
+              <ImplicitUsings>enable</ImplicitUsings>
+              <AssemblyName>AJSeriesFontsStudio</AssemblyName>
+              <PublishSingleFile>true</PublishSingleFile>
+              <SelfContained>false</SelfContained>
+            </PropertyGroup>
+          </Project>
+          '@ | Set-Content "distributions/windows/store-src/AJSeriesFontsStudio.csproj" -Encoding UTF8
+
+          @'
+          using System;
+          using System.Diagnostics;
+          using System.Drawing;
+          using System.Globalization;
+          using System.Windows.Forms;
+
+          internal static class Program {
+              [STAThread]
+              static void Main() {
+                  ApplicationConfiguration.Initialize();
+                  var culture = CultureInfo.CurrentUICulture;
+                  var form = new Form {
+                      Text = $"AJ Series Enterprise System Fonts v2.1.0 ({culture.DisplayName})",
+                      Size = new Size(860, 520),
+                      StartPosition = FormStartPosition.CenterScreen,
+                      BackColor = Color.FromArgb(246, 244, 238)
+                  };
+                  var lbl = new Label {
+                      Text = $"AJ Series Fonts Active in Windows Settings > Fonts\nDetected Language: {culture.DisplayName} ({culture.Name})\nSystem Default: AJ Shresti  |  Headings: Bold AJ Sahasvi\n21 Digitally-Signed Default 3D Paper-Press Styles Installed",
+                      Dock = DockStyle.Top,
+                      Height = 160,
+                      Padding = new Padding(28),
+                      Font = new Font("Segoe UI Semibold", 13f),
+                      ForeColor = Color.FromArgb(14, 29, 74)
+                  };
+                  var btn = new Button {
+                      Text = "Open Windows Font Settings (ms-settings:fonts)",
+                      Location = new Point(28, 180),
+                      Size = new Size(360, 48),
+                      BackColor = Color.FromArgb(29, 78, 216),
+                      ForeColor = Color.White,
+                      FlatStyle = FlatStyle.Flat
+                  };
+                  btn.Click += (_, _) => Process.Start(new ProcessStartInfo("ms-settings:fonts") { UseShellExecute = true });
+                  form.Controls.Add(btn);
+                  form.Controls.Add(lbl);
+                  Application.Run(form);
+              }
+          }
+          '@ | Set-Content "distributions/windows/store-src/Program.cs" -Encoding UTF8
+
+          dotnet publish "distributions/windows/store-src/AJSeriesFontsStudio.csproj" -c Release -r win-x64 -o "$storeDir"
+
+          $fontEntries = (Get-ChildItem "$storeDir/Assets/Fonts/*.ttf" | ForEach-Object { "        <uap4:Font File=`"Assets\Fonts\$($_.Name)`" />" }) -join "`n"
+          @"
+          <?xml version="1.0" encoding="utf-8"?>
+          <Package
+            xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+            xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+            xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4"
+            xmlns:uap7="http://schemas.microsoft.com/appx/manifest/uap/windows10/7"
+            xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+            IgnorableNamespaces="uap uap4 uap7 rescap">
+            <Identity Name="AivibeSoftwareServices.AJSeriesFonts" Publisher="CN=Aivibe Software Services Private Limited, O=Aivibe Software Services Private Limited, L=Chennai, C=IN" Version="2.1.0.0" ProcessorArchitecture="x64" />
+            <Properties>
+              <DisplayName>AJ Series Fonts</DisplayName>
+              <PublisherDisplayName>Aivibe Software Services Private Limited</PublisherDisplayName>
+              <Logo>Assets\StoreLogo.png</Logo>
+            </Properties>
+            <Dependencies>
+              <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0" />
+            </Dependencies>
+            <Resources><Resource Language="en-us" /><Resource Language="en-in" /></Resources>
+            <Applications>
+              <Application Id="AJSeriesFontsStudio" Executable="AJSeriesFontsStudio.exe" EntryPoint="Windows.FullTrustApplication">
+                <uap:VisualElements DisplayName="AJ Series Fonts" Description="4 Canonical Enterprise Typefaces: AJ Shresti Default &amp; Bold AJ Sahasvi Headings" BackgroundColor="#0E1D4A" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png">
+                  <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+                </uap:VisualElements>
+              </Application>
+            </Applications>
+            <Capabilities><rescap:Capability Name="runFullTrust" /></Capabilities>
+            <Extensions>
+              <uap7:Extension Category="windows.sharedFonts">
+                <uap7:SharedFonts>
+          $fontEntries
+                </uap7:SharedFonts>
+              </uap7:Extension>
+            </Extensions>
+          </Package>
+          "@.Trim() | Set-Content "$storeDir/AppxManifest.xml" -Encoding UTF8
+
+          $makeappx = (Get-ChildItem "C:\Program Files (x86)\Windows Kits\10\bin\*\x64\makeappx.exe" | Sort-Object FullName -Descending | Select-Object -First 1).FullName
+          & $makeappx pack /d $storeDir /p distributions/windows/AJ-Series-Fonts-v2.1.0-Microsoft-Store.msix /o
+          Compress-Archive -Path distributions/windows/AJ-Series-Fonts-v2.1.0-Microsoft-Store.msix -DestinationPath distributions/windows/AJ-Series-Fonts-v2.1.0-Microsoft-Store.msixupload -Force
+          Get-Item distributions/windows/AJ-Series-Fonts-v2.1.0-Microsoft-Store.*
+
+      - name: Attach Windows MSI, Headless MSIX & Microsoft Store MSIXUPLOAD to GitHub Release v2.1.0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: |
+          gh release upload v2.1.0 `
+            distributions/windows/AJ-Series-Fonts-v2.1.0-Windows-Core.msi `
+            distributions/windows/AJ-Series-Fonts-v2.1.0-Store-Headless.msix `
+            distributions/windows/AJ-Series-Fonts-v2.1.0-Microsoft-Store.msix `
+            distributions/windows/AJ-Series-Fonts-v2.1.0-Microsoft-Store.msixupload `
+            --clobber

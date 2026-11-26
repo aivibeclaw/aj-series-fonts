@@ -1,0 +1,257 @@
+/* ==========================================================================
+ * AJ Series & Aaahhh Fonts Vibe Enterprise Typefaces — Master CSS (@font-face + Tokens)
+ * Version: 3.0.0
+ *
+ * Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved.
+ * Authorized Licensees (modification, internal use, publishing):
+ *   - Aivibe Software Services Private Limited, Chennai
+ *   - AjAir Tech Mobility LLP
+ *   - QRaise Structures
+ * Contact / Signing: aravind.j.naidu@gmail.com
+ * ========================================================================== */
+
+/* --- 01. AJ Shresti — Main Headings & Brand Identity --- */
+@font-face {
+  font-family: "AJ Shresti";
+  src: url("../dist/aj-shresti/woff2/AJShresti-Regular.woff2") format("woff2"),
+       url("../dist/aj-shresti/woff/AJShresti-Regular.woff") format("woff");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Shresti";
+  src: url("../dist/aj-shresti/woff2/AJShresti-SemiBold.woff2") format("woff2"),
+       url("../dist/aj-shresti/woff/AJShresti-SemiBold.woff") format("woff");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Shresti";
+  src: url("../dist/aj-shresti/woff2/AJShresti-ExtraBold.woff2") format("woff2"),
+       url("../dist/aj-shresti/woff/AJShresti-ExtraBold.woff") format("woff");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Shresti";
+  src: url("../dist/aj-shresti/woff2/AJShresti-Italic.woff2") format("woff2"),
+       url("../dist/aj-shresti/woff/AJShresti-Italic.woff") format("woff");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Shresti";
+  src: url("../dist/aj-shresti/woff2/AJShresti-SemiBoldItalic.woff2") format("woff2"),
+       url("../dist/aj-shresti/woff/AJShresti-SemiBoldItalic.woff") format("woff");
+  font-weight: 600; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Shresti";
+  src: url("../dist/aj-shresti/woff2/AJShresti-ExtraBoldItalic.woff2") format("woff2"),
+       url("../dist/aj-shresti/woff/AJShresti-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800; font-style: italic; font-display: swap;
+}
+
+/* --- 02. AJ Sahasvi — Sub-Headings · Royal Architectural Small-Caps --- */
+@font-face {
+  font-family: "AJ Sahasvi";
+  src: url("../dist/aj-sahasvi/woff2/AJSahasvi-Regular.woff2") format("woff2"),
+       url("../dist/aj-sahasvi/woff/AJSahasvi-Regular.woff") format("woff");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Sahasvi";
+  src: url("../dist/aj-sahasvi/woff2/AJSahasvi-SemiBold.woff2") format("woff2"),
+       url("../dist/aj-sahasvi/woff/AJSahasvi-SemiBold.woff") format("woff");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Sahasvi";
+  src: url("../dist/aj-sahasvi/woff2/AJSahasvi-ExtraBold.woff2") format("woff2"),
+       url("../dist/aj-sahasvi/woff/AJSahasvi-ExtraBold.woff") format("woff");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
+
+/* --- 03. AJ Anushya — Body Text & Small-Size Micro-Clarity Sans --- */
+@font-face {
+  font-family: "AJ Anushya";
+  src: url("../dist/aj-anushya/woff2/AJAnushya-Regular.woff2") format("woff2"),
+       url("../dist/aj-anushya/woff/AJAnushya-Regular.woff") format("woff");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Anushya";
+  src: url("../dist/aj-anushya/woff2/AJAnushya-SemiBold.woff2") format("woff2"),
+       url("../dist/aj-anushya/woff/AJAnushya-SemiBold.woff") format("woff");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Anushya";
+  src: url("../dist/aj-anushya/woff2/AJAnushya-ExtraBold.woff2") format("woff2"),
+       url("../dist/aj-anushya/woff/AJAnushya-ExtraBold.woff") format("woff");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Anushya";
+  src: url("../dist/aj-anushya/woff2/AJAnushya-Italic.woff2") format("woff2"),
+       url("../dist/aj-anushya/woff/AJAnushya-Italic.woff") format("woff");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Anushya";
+  src: url("../dist/aj-anushya/woff2/AJAnushya-SemiBoldItalic.woff2") format("woff2"),
+       url("../dist/aj-anushya/woff/AJAnushya-SemiBoldItalic.woff") format("woff");
+  font-weight: 600; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Anushya";
+  src: url("../dist/aj-anushya/woff2/AJAnushya-ExtraBoldItalic.woff2") format("woff2"),
+       url("../dist/aj-anushya/woff/AJAnushya-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800; font-style: italic; font-display: swap;
+}
+
+/* --- 04. AJ Talin — Precision Straight (0°) Connected Running Script (+ Optional 11° Italic) --- */
+@font-face {
+  font-family: "AJ Talin";
+  src: url("../dist/aj-talin/woff2/AJTalin-Regular.woff2") format("woff2"),
+       url("../dist/aj-talin/woff/AJTalin-Regular.woff") format("woff");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Talin";
+  src: url("../dist/aj-talin/woff2/AJTalin-SemiBold.woff2") format("woff2"),
+       url("../dist/aj-talin/woff/AJTalin-SemiBold.woff") format("woff");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Talin";
+  src: url("../dist/aj-talin/woff2/AJTalin-ExtraBold.woff2") format("woff2"),
+       url("../dist/aj-talin/woff/AJTalin-ExtraBold.woff") format("woff");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Talin";
+  src: url("../dist/aj-talin/woff2/AJTalin-Italic.woff2") format("woff2"),
+       url("../dist/aj-talin/woff/AJTalin-Italic.woff") format("woff");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Talin";
+  src: url("../dist/aj-talin/woff2/AJTalin-SemiBoldItalic.woff2") format("woff2"),
+       url("../dist/aj-talin/woff/AJTalin-SemiBoldItalic.woff") format("woff");
+  font-weight: 600; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "AJ Talin";
+  src: url("../dist/aj-talin/woff2/AJTalin-ExtraBoldItalic.woff2") format("woff2"),
+       url("../dist/aj-talin/woff/AJTalin-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800; font-style: italic; font-display: swap;
+}
+
+/* --- 05. Aaahhh Fonts Vibe — "Sound of Font" Smart Phonetic Multilingual Typeface --- */
+@font-face {
+  font-family: "Aaahhh Fonts Vibe";
+  src: url("../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-Regular.woff2") format("woff2"),
+       url("../dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-Regular.woff") format("woff");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Aaahhh Fonts Vibe";
+  src: url("../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-SemiBold.woff2") format("woff2"),
+       url("../dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-SemiBold.woff") format("woff");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Aaahhh Fonts Vibe";
+  src: url("../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-ExtraBold.woff2") format("woff2"),
+       url("../dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-ExtraBold.woff") format("woff");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Aaahhh Fonts Vibe";
+  src: url("../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-Italic.woff2") format("woff2"),
+       url("../dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-Italic.woff") format("woff");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Aaahhh Fonts Vibe";
+  src: url("../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-SemiBoldItalic.woff2") format("woff2"),
+       url("../dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-SemiBoldItalic.woff") format("woff");
+  font-weight: 600; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Aaahhh Fonts Vibe";
+  src: url("../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-ExtraBoldItalic.woff2") format("woff2"),
+       url("../dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800; font-style: italic; font-display: swap;
+}
+
+/* --- Enterprise CSS Custom Properties --- */
+:root {
+  --aj-font-heading: "AJ Shresti", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --aj-font-subheading: "AJ Sahasvi", "AJ Shresti", Georgia, serif;
+  --aj-font-body: "AJ Anushya", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --aj-font-script: "AJ Talin", "AJ Anushya", cursive;
+  --aj-font-sound: "Aaahhh Fonts Vibe", "AJ Anushya", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --aj-weight-regular: 400;
+  --aj-weight-bold-l1: 600;
+  --aj-weight-bold-l2: 800;
+}
+
+/* --- Optional Enterprise Presentation Tokens (ZERO shadow baked into font outlines!) --- */
+.aj-heading {
+  font-family: var(--aj-font-heading);
+  font-weight: var(--aj-weight-bold-l1);
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  text-rendering: optimizeLegibility;
+}
+
+.aj-subheading {
+  font-family: var(--aj-font-subheading);
+  font-weight: var(--aj-weight-bold-l1);
+  letter-spacing: 0.03em;
+  font-kerning: normal;
+}
+
+.aj-body {
+  font-family: var(--aj-font-body);
+  font-weight: var(--aj-weight-regular);
+  line-height: 1.55;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+}
+
+.aj-script {
+  font-family: var(--aj-font-script);
+  font-weight: var(--aj-weight-regular);
+  font-style: normal; /* 0° straight upright by default */
+  font-feature-settings: "calt" 1, "kern" 1;
+}
+
+.aj-script--italic {
+  font-style: italic; /* Optional 11° precision italic */
+}
+
+.aj-kpi-tabular {
+  font-variant-numeric: tabular-nums slashed-zero;
+  font-feature-settings: "tnum" 1, "calt" 1;
+}
+
+.aj-agentic-arrows {
+  font-feature-settings: "dlig" 1, "calt" 1, "tnum" 1;
+}
+
+/* Tactile 3D Paper-Pressed Letterpress Impression (CSS Presentation Token) */
+.aj-effect-paper-pressed {
+  color: rgba(14, 38, 48, 0.88);
+  text-shadow:
+    0 2px 1px rgba(255, 255, 255, 0.92),
+    0 -1.5px 1.5px rgba(0, 0, 0, 0.40);
+}
+
+/* Glossy 3D Elevated Hero Finish (CSS Presentation Token) */
+.aj-effect-glossy-3d {
+  color: #F4FBFF;
+  text-shadow:
+    0 3px 6px rgba(6, 24, 38, 0.45),
+    0 8px 18px rgba(6, 24, 38, 0.30),
+    0 -1px 0 rgba(255, 255, 255, 0.58);
+}

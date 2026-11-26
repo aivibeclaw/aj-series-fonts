@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "AJ Series Enterprise Fonts \u2014 Browser, Translation & Subtitle Typography",
+  "version": "3.0.0",
+  "description": "Binds browser fontSettings, Google Translate automated translations (AJ Shresti 400 / AJ Sahasvi ExtraBold 800), and HTML5/YouTube/Netflix video subtitles (AJ Shresti SemiBold 600).",
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    },
+    "default_title": "AJ Series & Aaahhh Fonts Vibe (v3.0.0)"
+  },
+  "permissions": [
+    "fontSettings"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "translation-subtitles.css"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}

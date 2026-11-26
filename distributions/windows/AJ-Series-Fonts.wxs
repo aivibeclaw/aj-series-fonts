@@ -1,0 +1,83 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package
+    Name="AJ Series Enterprise System Fonts"
+    Manufacturer="Aravind Jayamohan / Aivibe Software Services Private Limited"
+    Version="3.0.0.0"
+    UpgradeCode="{8E41A6D2-4F55-4A11-9D31-A75E312B90F1}"
+    Scope="perMachine">
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of AJ Series Enterprise System Fonts is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <StandardDirectory Id="FontsFolder">
+      <Component Id="AJSeriesFontFiles" Guid="{2A94F8C1-B243-4F2C-8C91-5E1A9308B7E2}">
+          <File Id="Font_0" Source="fonts\AaahhhFontsVibe-ExtraBold.ttf" TrueType="yes" />
+          <File Id="Font_1" Source="fonts\AaahhhFontsVibe-ExtraBoldItalic.ttf" TrueType="yes" />
+          <File Id="Font_2" Source="fonts\AaahhhFontsVibe-Italic.ttf" TrueType="yes" />
+          <File Id="Font_3" Source="fonts\AaahhhFontsVibe-Regular.ttf" TrueType="yes" />
+          <File Id="Font_4" Source="fonts\AaahhhFontsVibe-SemiBold.ttf" TrueType="yes" />
+          <File Id="Font_5" Source="fonts\AaahhhFontsVibe-SemiBoldItalic.ttf" TrueType="yes" />
+          <File Id="Font_6" Source="fonts\AJAnushya-ExtraBold.ttf" TrueType="yes" />
+          <File Id="Font_7" Source="fonts\AJAnushya-ExtraBoldItalic.ttf" TrueType="yes" />
+          <File Id="Font_8" Source="fonts\AJAnushya-Italic.ttf" TrueType="yes" />
+          <File Id="Font_9" Source="fonts\AJAnushya-Regular.ttf" TrueType="yes" />
+          <File Id="Font_10" Source="fonts\AJAnushya-SemiBold.ttf" TrueType="yes" />
+          <File Id="Font_11" Source="fonts\AJAnushya-SemiBoldItalic.ttf" TrueType="yes" />
+          <File Id="Font_12" Source="fonts\AJSahasvi-ExtraBold.ttf" TrueType="yes" />
+          <File Id="Font_13" Source="fonts\AJSahasvi-Regular.ttf" TrueType="yes" />
+          <File Id="Font_14" Source="fonts\AJSahasvi-SemiBold.ttf" TrueType="yes" />
+          <File Id="Font_15" Source="fonts\AJShresti-ExtraBold.ttf" TrueType="yes" />
+          <File Id="Font_16" Source="fonts\AJShresti-ExtraBoldItalic.ttf" TrueType="yes" />
+          <File Id="Font_17" Source="fonts\AJShresti-Italic.ttf" TrueType="yes" />
+          <File Id="Font_18" Source="fonts\AJShresti-Regular.ttf" TrueType="yes" />
+          <File Id="Font_19" Source="fonts\AJShresti-SemiBold.ttf" TrueType="yes" />
+          <File Id="Font_20" Source="fonts\AJShresti-SemiBoldItalic.ttf" TrueType="yes" />
+          <File Id="Font_21" Source="fonts\AJTalin-ExtraBold.ttf" TrueType="yes" />
+          <File Id="Font_22" Source="fonts\AJTalin-ExtraBoldItalic.ttf" TrueType="yes" />
+          <File Id="Font_23" Source="fonts\AJTalin-Italic.ttf" TrueType="yes" />
+          <File Id="Font_24" Source="fonts\AJTalin-Regular.ttf" TrueType="yes" />
+          <File Id="Font_25" Source="fonts\AJTalin-SemiBold.ttf" TrueType="yes" />
+          <File Id="Font_26" Source="fonts\AJTalin-SemiBoldItalic.ttf" TrueType="yes" />
+      </Component>
+    </StandardDirectory>
+
+    <StandardDirectory Id="CommonAppDataFolder">
+      <Directory Id="AJSeriesSupportDir" Name="AJ-Series-Fonts">
+        <Component Id="AJSeriesOfficeThemeXml" Guid="{6C8B3E14-92D4-47F8-B3A1-9E2C4508A1D7}">
+          <File Id="AJSeriesEnterpriseThemeXml" Source="AJ-Series-Enterprise.xml" KeyPath="yes" />
+        </Component>
+      </Directory>
+    </StandardDirectory>
+
+    <Component Id="AJShrestiSystemDefault" Directory="TARGETDIR" Guid="{91F4E2B0-88C2-4D3E-A510-77B20D14E61C}">
+      <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes">
+        <RegistryValue Name="Segoe UI" Type="string" Value="AJ Shresti" />
+        <RegistryValue Name="MS Shell Dlg" Type="string" Value="AJ Shresti" />
+        <RegistryValue Name="MS Shell Dlg 2" Type="string" Value="AJ Shresti" />
+      </RegistryKey>
+      <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts">
+        <RegistryValue Name="Segoe UI (TrueType)" Type="string" Value="AJShresti-Regular.ttf" />
+        <RegistryValue Name="Segoe UI Semilight (TrueType)" Type="string" Value="AJShresti-Regular.ttf" />
+        <RegistryValue Name="Segoe UI Semibold (TrueType)" Type="string" Value="AJShresti-SemiBold.ttf" />
+        <RegistryValue Name="Segoe UI Bold (TrueType)" Type="string" Value="AJShresti-ExtraBold.ttf" />
+        <RegistryValue Name="Segoe UI Italic (TrueType)" Type="string" Value="AJShresti-Italic.ttf" />
+        <RegistryValue Name="Segoe UI Semibold Italic (TrueType)" Type="string" Value="AJShresti-SemiBoldItalic.ttf" />
+        <RegistryValue Name="Segoe UI Bold Italic (TrueType)" Type="string" Value="AJShresti-ExtraBoldItalic.ttf" />
+      </RegistryKey>
+      <RegistryKey Root="HKLM" Key="SOFTWARE\AJSeriesFonts\Defaults">
+        <RegistryValue Name="TopSuggestedFamilies" Type="string" Value="AJ Sahasvi;AJ Shresti;AJ Anushya;AJ Talin;Aaahhh Fonts Vibe" />
+        <RegistryValue Name="SoundOfFontFamily" Type="string" Value="Aaahhh Fonts Vibe" />
+        <RegistryValue Name="TranslationBodyFont" Type="string" Value="AJ Shresti" />
+        <RegistryValue Name="TranslationHeadingFont" Type="string" Value="AJ Sahasvi ExtraBold" />
+        <RegistryValue Name="SubtitleFont" Type="string" Value="AJ Shresti SemiBold" />
+      </RegistryKey>
+      <ServiceControl Id="RefreshWindowsFontCache" Name="FontCache" Stop="both" Start="install" Wait="no" />
+    </Component>
+
+    <Feature Id="CoreSystemFonts" Title="AJ Series Core System Fonts (Zero Icon)" Level="1">
+      <ComponentRef Id="AJSeriesFontFiles" />
+      <ComponentRef Id="AJSeriesOfficeThemeXml" />
+      <ComponentRef Id="AJShrestiSystemDefault" />
+    </Feature>
+  </Package>
+</Wix>

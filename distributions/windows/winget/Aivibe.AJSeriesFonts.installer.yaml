@@ -1,0 +1,14 @@
+PackageIdentifier: Aivibe.AJSeriesFonts
+PackageVersion: 3.0.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: install-aj-fonts.ps1
+    PortableCommandAlias: install-aj-fonts
+Scope: machine
+Installers:
+  - Architecture: neutral
+    InstallerUrl: https://fonts.aivibe.cloud/downloads/AJ-Series-Fonts-v3.0.0-Windows-Core.zip
+    InstallerSha256: 2B890D7C313201DB6F68CBA3ED6A5951025A324560363062671A94736859FE30
+ManifestType: installer
+ManifestVersion: 1.6.0

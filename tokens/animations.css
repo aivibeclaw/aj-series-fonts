@@ -1,0 +1,73 @@
+/* ==========================================================================
+ * AJ Series — Enterprise Motion & Kinetic Typography Animation Tokens
+ * Includes GPU-composited reveals, tabular KPI stabilization, SVG write-on
+ * support, and strict WCAG prefers-reduced-motion compliance.
+ * ========================================================================== */
+
+@keyframes aj-kinetic-reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+    letter-spacing: 0.09em;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    letter-spacing: 0;
+  }
+}
+
+@keyframes aj-letterpress-settle {
+  0% {
+    opacity: 0;
+    transform: scale(1.03);
+    text-shadow: 0 0 0 transparent, 0 0 0 transparent;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    text-shadow: 0 2px 1px rgba(255, 255, 255, 0.92), 0 -1.5px 1.5px rgba(0, 0, 0, 0.40);
+  }
+}
+
+@keyframes aj-stroke-draw {
+  from { stroke-dashoffset: var(--aj-path-len, 1200); }
+  to   { stroke-dashoffset: 0; }
+}
+
+.aj-anim-reveal {
+  animation: aj-kinetic-reveal 520ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform, opacity, letter-spacing;
+}
+
+.aj-anim-letterpress {
+  animation: aj-letterpress-settle 640ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Zero-jitter animated numerical KPI counters using native tabular figures */
+.aj-anim-kpi-counter {
+  font-variant-numeric: tabular-nums slashed-zero;
+  font-feature-settings: "tnum" 1;
+  transition: color 220ms ease, transform 220ms ease;
+}
+
+/* Single-line SVG write-on animation (pairs with animation/stroke-paths/*.json) */
+.aj-anim-write-on path {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: var(--aj-path-len, 1200);
+  stroke-dashoffset: var(--aj-path-len, 1200);
+  animation: aj-stroke-draw var(--aj-draw-dur, 1.4s) cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aj-anim-reveal,
+  .aj-anim-letterpress,
+  .aj-anim-write-on path {
+    animation: none !important;
+    transition: none !important;
+    stroke-dashoffset: 0 !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

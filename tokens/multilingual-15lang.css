@@ -1,0 +1,28 @@
+/* AJ Series & Aaahhh Fonts Vibe v3.0.0 — 5 Canonical Families (27 Styles · 25+ Native Languages · Default 3D Mild-Gradient Press) */
+@font-face { font-family: 'AJ Shresti'; src: url('../dist/aj-shresti/woff2/AJShresti-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Shresti'; src: url('../dist/aj-shresti/woff2/AJShresti-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Shresti'; src: url('../dist/aj-shresti/woff2/AJShresti-ExtraBold.woff2') format('woff2'); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Shresti'; src: url('../dist/aj-shresti/woff2/AJShresti-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'AJ Shresti'; src: url('../dist/aj-shresti/woff2/AJShresti-SemiBoldItalic.woff2') format('woff2'); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: 'AJ Shresti'; src: url('../dist/aj-shresti/woff2/AJShresti-ExtraBoldItalic.woff2') format('woff2'); font-weight: 800; font-style: italic; font-display: swap; }
+@font-face { font-family: 'AJ Sahasvi'; src: url('../dist/aj-sahasvi/woff2/AJSahasvi-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Sahasvi'; src: url('../dist/aj-sahasvi/woff2/AJSahasvi-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Sahasvi'; src: url('../dist/aj-sahasvi/woff2/AJSahasvi-ExtraBold.woff2') format('woff2'); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Anushya'; src: url('../dist/aj-anushya/woff2/AJAnushya-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Anushya'; src: url('../dist/aj-anushya/woff2/AJAnushya-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Anushya'; src: url('../dist/aj-anushya/woff2/AJAnushya-ExtraBold.woff2') format('woff2'); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Anushya'; src: url('../dist/aj-anushya/woff2/AJAnushya-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'AJ Anushya'; src: url('../dist/aj-anushya/woff2/AJAnushya-SemiBoldItalic.woff2') format('woff2'); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: 'AJ Anushya'; src: url('../dist/aj-anushya/woff2/AJAnushya-ExtraBoldItalic.woff2') format('woff2'); font-weight: 800; font-style: italic; font-display: swap; }
+@font-face { font-family: 'AJ Talin'; src: url('../dist/aj-talin/woff2/AJTalin-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Talin'; src: url('../dist/aj-talin/woff2/AJTalin-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Talin'; src: url('../dist/aj-talin/woff2/AJTalin-ExtraBold.woff2') format('woff2'); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'AJ Talin'; src: url('../dist/aj-talin/woff2/AJTalin-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'AJ Talin'; src: url('../dist/aj-talin/woff2/AJTalin-SemiBoldItalic.woff2') format('woff2'); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: 'AJ Talin'; src: url('../dist/aj-talin/woff2/AJTalin-ExtraBoldItalic.woff2') format('woff2'); font-weight: 800; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Aaahhh Fonts Vibe'; src: url('../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Aaahhh Fonts Vibe'; src: url('../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Aaahhh Fonts Vibe'; src: url('../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-ExtraBold.woff2') format('woff2'); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Aaahhh Fonts Vibe'; src: url('../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Aaahhh Fonts Vibe'; src: url('../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-SemiBoldItalic.woff2') format('woff2'); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Aaahhh Fonts Vibe'; src: url('../dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-ExtraBoldItalic.woff2') format('woff2'); font-weight: 800; font-style: italic; font-display: swap; }

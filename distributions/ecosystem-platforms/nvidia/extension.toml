@@ -1,0 +1,14 @@
+[package]
+version = "3.0.0"
+title = "AJ Series & Aaahhh Fonts Vibe — 3D Enterprise & Sound-of-Font Suite"
+description = "5 handcrafted 3D-pressed multilingual enterprise fonts + Sound of Font phonetic engine for NVIDIA Omniverse Kit, Isaac Sim, and NIM/NeMo OCR UIs."
+authors = ["Aravind Jayamohan <aravind.j.naidu@gmail.com>", "Aivibe Software Services Private Limited"]
+repository = "https://github.com/aivibe-org/aj-series-fonts"
+keywords = ["fonts", "typography", "omniverse", "ocr", "multilingual", "sound-of-font", "aivibe"]
+category = "UI"
+
+[dependencies]
+"omni.ui" = {}
+
+[[python.module]]
+name = "aivibe.omniverse.fonts"
