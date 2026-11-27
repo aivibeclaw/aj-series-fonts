@@ -1,0 +1,1334 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "AJ-Series-Aaahhh-Fonts-Vibe-v3.1.0",
+  "documentNamespace": "https://fonts.aivibe.cloud/spdx/aj-series-fonts-3.1.0-59478f75-458e-40e7-85c4-f459f489db95",
+  "creationInfo": {
+    "created": "2026-11-27T12:46:40Z",
+    "creators": [
+      "Person: Aravind Jayamohan, India",
+      "Organization: Aivibe Software Services Private Limited, Chennai",
+      "Tool: AJ-Series-Foundry-3.1.0"
+    ]
+  },
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "extractedText": "Aivibe Open Ecosystem Font License 3.1.0. See https://fonts.aivibe.cloud"
+    }
+  ],
+  "packages": [
+    {
+      "name": "AJ Series & Aaahhh Fonts Vibe Enterprise Typefaces",
+      "SPDXID": "SPDXRef-Package-AJ-Series-Fonts",
+      "versionInfo": "3.1.0",
+      "supplier": "Person: Aravind Jayamohan, India",
+      "originator": "Person: Aravind Jayamohan, India",
+      "downloadLocation": "https://fonts.aivibe.cloud",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "licenseDeclared": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale.",
+      "summary": "5 typeface families (27 styles / 108 binaries)."
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./dist/aj-shresti/otf/AJShresti-Regular.otf",
+      "SPDXID": "SPDXRef-File-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "80c07dcae3bc8de74bb7a06811b0678b1a67a5ef82e7f14f9f6966cb968fb1f1"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/ttf/AJShresti-Regular.ttf",
+      "SPDXID": "SPDXRef-File-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "41e1c2c78dc9149747508f55cf7a106ab2a21c65bc6172b256af33ca365e90e9"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff/AJShresti-Regular.woff",
+      "SPDXID": "SPDXRef-File-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "34695d195d5f7f32fa39446968b0715f80b8851a0cfdb3b51eff394be81e3e24"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff2/AJShresti-Regular.woff2",
+      "SPDXID": "SPDXRef-File-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f78d8ac490c1c69b62faafa69be1e98cff40c4c8453c9eeef568ee68ba124aa5"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/otf/AJShresti-SemiBold.otf",
+      "SPDXID": "SPDXRef-File-5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "59d34d6155c39358cccf3d81c6396a8e2d135f672a170b3f85454587b9e6c517"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/ttf/AJShresti-SemiBold.ttf",
+      "SPDXID": "SPDXRef-File-6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "352823fa5459603d826ca50efb5c3ef5b2e68bb1af87743ec0591391eb485617"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff/AJShresti-SemiBold.woff",
+      "SPDXID": "SPDXRef-File-7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fb37634592b52518cc7398cc2fe972480705461d2698f4ad0fd3206565170796"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff2/AJShresti-SemiBold.woff2",
+      "SPDXID": "SPDXRef-File-8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fe4219be9c3456101ccf24a185eb22812c1cae0f48334de2a457004c773581f5"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/otf/AJShresti-ExtraBold.otf",
+      "SPDXID": "SPDXRef-File-9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "697f0a3a6497187c0ede37ee6123f03b6efd6d708ae8cccbfff2c3d617cb7ebc"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/ttf/AJShresti-ExtraBold.ttf",
+      "SPDXID": "SPDXRef-File-10",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8812073952967defe23cd0dcc8fe358ad7580a3acb4b85b18e08a776d43c68d4"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff/AJShresti-ExtraBold.woff",
+      "SPDXID": "SPDXRef-File-11",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "86ea89b381d243113ac99de3f8b1246fdff5946d83ad1085be663b9fc93cf360"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff2/AJShresti-ExtraBold.woff2",
+      "SPDXID": "SPDXRef-File-12",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c30e46ac05db5753c6c5ec51796094b0771159a73e0e8976492a945b61998e3"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/otf/AJShresti-Italic.otf",
+      "SPDXID": "SPDXRef-File-13",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d5b1b605286f680db9617e8ae3a909175b96167d858a8868073d783af2f67478"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/ttf/AJShresti-Italic.ttf",
+      "SPDXID": "SPDXRef-File-14",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c0d3c92a6c00cf53a75569998a8aa32016ba82899c639eab799ad0f1e20bb9d8"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff/AJShresti-Italic.woff",
+      "SPDXID": "SPDXRef-File-15",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "49476fe72c7edb5498ffb46e425ae7e135c7cfb7a6ff1aac0a2ba16991368e14"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff2/AJShresti-Italic.woff2",
+      "SPDXID": "SPDXRef-File-16",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "084c1fa482518c7ec814a5edb47e8c5791e84f85804dafdf3bf74fd12d74d919"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/otf/AJShresti-SemiBoldItalic.otf",
+      "SPDXID": "SPDXRef-File-17",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2903dadaa3a4a7d0ba675565540337ee639aad307a39baf762dc101340778df6"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/ttf/AJShresti-SemiBoldItalic.ttf",
+      "SPDXID": "SPDXRef-File-18",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f530f31ec59ef84fb4b6f030aa71486c712e2914f3f23f357f18aec20d54fd2e"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff/AJShresti-SemiBoldItalic.woff",
+      "SPDXID": "SPDXRef-File-19",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "74879f5654bb2c3cfbc3b3a730c31d790f86cec264ae15f26d6362aafc5ffcd5"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff2/AJShresti-SemiBoldItalic.woff2",
+      "SPDXID": "SPDXRef-File-20",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b322ad7a213bb889795e006b53cfb79b21ff8574dfdda377d50c9dc2ab6100d7"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/otf/AJShresti-ExtraBoldItalic.otf",
+      "SPDXID": "SPDXRef-File-21",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "42db5ab534764b9d52f7baef74fd23189833fa49bfa9a6915aafa87b44dd2c62"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/ttf/AJShresti-ExtraBoldItalic.ttf",
+      "SPDXID": "SPDXRef-File-22",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c7300728d20c36c17e5c6ba66fab0d2ca287356d47cde1ff6cb34d120bc35ebf"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff/AJShresti-ExtraBoldItalic.woff",
+      "SPDXID": "SPDXRef-File-23",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4542a5083cbf8cabb75b14245467a600e2a505d1c12aa7e472009e4b66840be2"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-shresti/woff2/AJShresti-ExtraBoldItalic.woff2",
+      "SPDXID": "SPDXRef-File-24",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "275b7569e45513e8c7723a73a9024cc4b44fe9090e58ede9031b4e94407954e1"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/otf/AJSahasvi-Regular.otf",
+      "SPDXID": "SPDXRef-File-25",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "08ae73b53d765c4ea0665f587f40c47e0bfb3ebb1e2a4be3ca8a6111be70296a"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/ttf/AJSahasvi-Regular.ttf",
+      "SPDXID": "SPDXRef-File-26",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4aaaca3a290012268907dcf7ccacce632de4428594198a8ebd2c431e01bcc859"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/woff/AJSahasvi-Regular.woff",
+      "SPDXID": "SPDXRef-File-27",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "33a70e39d22bfa892055d7aa795add1cc824a3a2811f2c1d56f27cfb42eea41e"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/woff2/AJSahasvi-Regular.woff2",
+      "SPDXID": "SPDXRef-File-28",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a9fa7bc8bfb8d9c33746fda8fe3a6b8a6c5d42f864cb419e7b56c5284bfe0117"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/otf/AJSahasvi-SemiBold.otf",
+      "SPDXID": "SPDXRef-File-29",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dbfcabf97f734f43874b31348aecf78a2bfea61e18a27ea438304127eac3e338"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/ttf/AJSahasvi-SemiBold.ttf",
+      "SPDXID": "SPDXRef-File-30",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f12bb9d9e58a91364e41c00fc777d62890fed03e2548d56aed261c3e084c3e4b"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/woff/AJSahasvi-SemiBold.woff",
+      "SPDXID": "SPDXRef-File-31",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9eb1e1155a5bfb2ffb8620e12923ef2db6e7ee6887157480ad9565f8ff3af82f"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/woff2/AJSahasvi-SemiBold.woff2",
+      "SPDXID": "SPDXRef-File-32",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "97d18b0871dd79b79bc697f586fd96db5cc8d479fd08e29001af03a1eea038ae"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/otf/AJSahasvi-ExtraBold.otf",
+      "SPDXID": "SPDXRef-File-33",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "23318f53a465f4981fc1ea6e0db2f6257626470e241e10fe396cecab29f47456"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/ttf/AJSahasvi-ExtraBold.ttf",
+      "SPDXID": "SPDXRef-File-34",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3c891f5a48d18b2493f91701cfe45a56009ef722b4e7dbe927881d7325d0437f"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/woff/AJSahasvi-ExtraBold.woff",
+      "SPDXID": "SPDXRef-File-35",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7b8783dbfbcab2ce8601e81b9b9608cfc1945dd887e93d23bf736ec71f7a4be5"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-sahasvi/woff2/AJSahasvi-ExtraBold.woff2",
+      "SPDXID": "SPDXRef-File-36",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ae3f5ac72db1434fbd01db15c41ba027121363c4531498d5f79acd79bbd1f1ce"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/otf/AJAnushya-Regular.otf",
+      "SPDXID": "SPDXRef-File-37",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c355fe074f5bb9255ab9329cd4f8cdc9a4f6c475a0ab51eac6e154c9703b5871"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/ttf/AJAnushya-Regular.ttf",
+      "SPDXID": "SPDXRef-File-38",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c67cbfcd325b9001d8348cafbdd7924e333d7e2d18f17c26ba4b8c368e7a24db"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff/AJAnushya-Regular.woff",
+      "SPDXID": "SPDXRef-File-39",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f0c25b9f34297a606c477343ea14ed2a5ad79bc5e55142fe5d267268dd71e15"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff2/AJAnushya-Regular.woff2",
+      "SPDXID": "SPDXRef-File-40",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e7fea1b388dd9a6fb19e301d83869cf4cfea13306abaf4cd74af9a30e2aa5e1e"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/otf/AJAnushya-SemiBold.otf",
+      "SPDXID": "SPDXRef-File-41",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3874ed972c29bdeac479b69caea625c67c5921c821c1c1ad6f0cfdfc79569060"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/ttf/AJAnushya-SemiBold.ttf",
+      "SPDXID": "SPDXRef-File-42",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3e1d54730626835d1c236a37a952782e21ca0d622f1ab0fec2a1fd92bc99a791"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff/AJAnushya-SemiBold.woff",
+      "SPDXID": "SPDXRef-File-43",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "53026743aea2490eb87e8fecbc73396557acc3278fcf715b44f041cd462ba3a3"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff2/AJAnushya-SemiBold.woff2",
+      "SPDXID": "SPDXRef-File-44",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "87653961a24db57b9838e743efaf2d8fd15b3db4dafda7bb53e3248c65b3ef13"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/otf/AJAnushya-ExtraBold.otf",
+      "SPDXID": "SPDXRef-File-45",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "012bf53072ffdcba329c82c5c60bd3b223520e181b1119fc088d04be57506daa"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/ttf/AJAnushya-ExtraBold.ttf",
+      "SPDXID": "SPDXRef-File-46",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3a27aa88bf88d25ea662123247fb097b1d4abc90231607ecdee2130c1cb0c11"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff/AJAnushya-ExtraBold.woff",
+      "SPDXID": "SPDXRef-File-47",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3e3a70819795360c32386e3eafe09eaf4b534a9b2b6195f36656a94d6a11d098"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff2/AJAnushya-ExtraBold.woff2",
+      "SPDXID": "SPDXRef-File-48",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "63411f869eac2cfb897463ce09bea0c440c4b891cd6bf4fa29b486778ef7318d"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/otf/AJAnushya-Italic.otf",
+      "SPDXID": "SPDXRef-File-49",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "20eb4a04744278b4052a9ef82e0db62eb73fadd8ab2ea779b231aff1bd31683a"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/ttf/AJAnushya-Italic.ttf",
+      "SPDXID": "SPDXRef-File-50",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6cceb179b756b4310161315911f46c58a2799bb5e2ee9ffe290d27ef69e6261b"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff/AJAnushya-Italic.woff",
+      "SPDXID": "SPDXRef-File-51",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8c3f00a3056d039ecf6dbc72b43f3b89d18fe8a5b85b05c6a9f8295f8268f212"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff2/AJAnushya-Italic.woff2",
+      "SPDXID": "SPDXRef-File-52",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "647b195f23481f1a01f45eb9a0f7e523661bf83550a050431aa2254380614ed8"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/otf/AJAnushya-SemiBoldItalic.otf",
+      "SPDXID": "SPDXRef-File-53",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "02a41c3dbfa0d9a2cee8a2d91b0e7d89e94a33e872114c1f987e684276ef98c1"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/ttf/AJAnushya-SemiBoldItalic.ttf",
+      "SPDXID": "SPDXRef-File-54",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4a292a3b6709f53c2a6417574452b3b9a1dd55f48b4f4d4bc27af27dc196c157"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff/AJAnushya-SemiBoldItalic.woff",
+      "SPDXID": "SPDXRef-File-55",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e4ca59700bffdb901070425c145d9d9faaedfbd0f3591e44710c7bf9013b1f1b"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff2/AJAnushya-SemiBoldItalic.woff2",
+      "SPDXID": "SPDXRef-File-56",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ccb57fed6f78e30576546507872a5a20222ed13472f589ebc09b07f280b571cf"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/otf/AJAnushya-ExtraBoldItalic.otf",
+      "SPDXID": "SPDXRef-File-57",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "669d431552b4abf71cfc7b9bc6cc43113ccc2804fbbe4f3dec6141adfd6ae27c"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/ttf/AJAnushya-ExtraBoldItalic.ttf",
+      "SPDXID": "SPDXRef-File-58",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "78f4ef592a4e6f14d57d59d092e031c2b8a2a13e0ec096d915bad89715f19262"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff/AJAnushya-ExtraBoldItalic.woff",
+      "SPDXID": "SPDXRef-File-59",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a89796cff049060f8e4e18f54597afb745e9f0af3bc493ecae821d9f640933e0"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-anushya/woff2/AJAnushya-ExtraBoldItalic.woff2",
+      "SPDXID": "SPDXRef-File-60",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "102929037df256e0c4a9bb2f55c957dda493c922939aa826cbbac88878456092"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/otf/AJTalin-Regular.otf",
+      "SPDXID": "SPDXRef-File-61",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "701b13ffe55c5a65187927df0fa9ea76e5f40fde8022d257ec777a2aa794c260"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/ttf/AJTalin-Regular.ttf",
+      "SPDXID": "SPDXRef-File-62",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "544f9a8ec66a187b3dd2d8696caecb8c14f4f1edeb7b5abf091d752d9322ae8d"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff/AJTalin-Regular.woff",
+      "SPDXID": "SPDXRef-File-63",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "edcfef9d9f8c65d9f4b23dab7c066d82e9ae52e6a3cc92978fb8b615ca063e78"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff2/AJTalin-Regular.woff2",
+      "SPDXID": "SPDXRef-File-64",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "04b937f02699ad940d05c588d1a8563d12fafd3b3e89e59df661841ee473cbc2"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/otf/AJTalin-SemiBold.otf",
+      "SPDXID": "SPDXRef-File-65",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "84e55428ac427f8e8f9e1a7d8e1a9fe574053770ddbeba767d08e2e44c26344a"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/ttf/AJTalin-SemiBold.ttf",
+      "SPDXID": "SPDXRef-File-66",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "679933f4ea8b2dd861a41e12b9ce4c810b487cc72f9864c5009414d40b0315fe"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff/AJTalin-SemiBold.woff",
+      "SPDXID": "SPDXRef-File-67",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b9a7dd223b3cd8a7b2049dc0b8cdf8fe4811a898231abe22525d1fd9f4b9fccc"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff2/AJTalin-SemiBold.woff2",
+      "SPDXID": "SPDXRef-File-68",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f336cc202072b3ad2f42cd7e5f34f433f334b568465ff741469eb26f075d8f60"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/otf/AJTalin-ExtraBold.otf",
+      "SPDXID": "SPDXRef-File-69",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5d800ec68e9ad8187e326ed18f4b47d52504724f1905d465dc189d5b43b9f93d"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/ttf/AJTalin-ExtraBold.ttf",
+      "SPDXID": "SPDXRef-File-70",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "76cf141c87af05738cc2cd3114e4432c2dedfbf5b73cff15ea54aec6f30a67b8"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff/AJTalin-ExtraBold.woff",
+      "SPDXID": "SPDXRef-File-71",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "772363f3596273800ab1a2814920330b6193fc78e921c8b06ab3772857610f8f"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff2/AJTalin-ExtraBold.woff2",
+      "SPDXID": "SPDXRef-File-72",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "26679edd56e50f746971945727879c122a3e81cb867101b548d5a69ef0e33bbd"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/otf/AJTalin-Italic.otf",
+      "SPDXID": "SPDXRef-File-73",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b24bb00f1871f5269c38485a75974fa3eee31433f388fa573212a0a7d2cee213"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/ttf/AJTalin-Italic.ttf",
+      "SPDXID": "SPDXRef-File-74",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1d6bad64429ceb376187e3329358010c085e41274410b794bbfff9f71050db6c"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff/AJTalin-Italic.woff",
+      "SPDXID": "SPDXRef-File-75",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "624571ef2b3397d9102ba33376abec581f9b66db1ce860cb9ce4fcb267e0220d"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff2/AJTalin-Italic.woff2",
+      "SPDXID": "SPDXRef-File-76",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b2f3c057bb502c5dc8306bc260e18c9af62ee8a6bd5ceffd0b1a589160be2f76"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/otf/AJTalin-SemiBoldItalic.otf",
+      "SPDXID": "SPDXRef-File-77",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "95599dc809142496c1448b6bf72ccc0e7432f73c466e0f86806cb75b407d6b4c"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/ttf/AJTalin-SemiBoldItalic.ttf",
+      "SPDXID": "SPDXRef-File-78",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0b8d1203536830dba3ab86c5b3d8a2018a133a38d840cbb2411995d22c9f315c"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff/AJTalin-SemiBoldItalic.woff",
+      "SPDXID": "SPDXRef-File-79",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aee8b7810d4499481db958e7120787c4ef904829895da86bc2063bb68d46940c"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff2/AJTalin-SemiBoldItalic.woff2",
+      "SPDXID": "SPDXRef-File-80",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "490ba33a0c104b04ed7c207398c35ee1afcfbbd7daca28ebb27d4edc8286e44a"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/otf/AJTalin-ExtraBoldItalic.otf",
+      "SPDXID": "SPDXRef-File-81",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cfd55647f1070168cb5d391cf0174b558f8133633c5fe5ec75ba7b1e9c32a086"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/ttf/AJTalin-ExtraBoldItalic.ttf",
+      "SPDXID": "SPDXRef-File-82",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9b83f13d823bf18b67f48fc02ea2b25ada2a60cda73c42e20679395bfdfb02ff"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff/AJTalin-ExtraBoldItalic.woff",
+      "SPDXID": "SPDXRef-File-83",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3843663c01a2c49af979621d71330532652d422ac03c2ab554ae338d5ea86c9a"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aj-talin/woff2/AJTalin-ExtraBoldItalic.woff2",
+      "SPDXID": "SPDXRef-File-84",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b078d71c4b53f40a42f07229603865d8b0f3055aafeca23cb8beb1b63fa4c08f"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/otf/AaahhhFontsVibe-Regular.otf",
+      "SPDXID": "SPDXRef-File-85",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "553dd5363d37d07eabf849e2df24a3ac89ca8d84039d4d0e2dd8ee8749898038"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/ttf/AaahhhFontsVibe-Regular.ttf",
+      "SPDXID": "SPDXRef-File-86",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a1d1eec6b1da5461d3496cf228fcbff86e81dabd02aa214cb1f70007e6c77625"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-Regular.woff",
+      "SPDXID": "SPDXRef-File-87",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "afb719597aee68ee381dbc91372f53d3907d69ce8923b2c0a496053f2d41af23"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-Regular.woff2",
+      "SPDXID": "SPDXRef-File-88",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3451db86f894227722777f362182740d1c7d17046d8c3bd175dc44f77a429687"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/otf/AaahhhFontsVibe-SemiBold.otf",
+      "SPDXID": "SPDXRef-File-89",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dea96715871dc72a45836b289286c0442439f232c6e3525ff652e37d6dfbe792"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/ttf/AaahhhFontsVibe-SemiBold.ttf",
+      "SPDXID": "SPDXRef-File-90",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dfb5a282c87dc4407669ab8d9f303a0c3e3f016d028c97ebab2ac6ab69b450a4"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-SemiBold.woff",
+      "SPDXID": "SPDXRef-File-91",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fa598e219105fcf940473826ca35bfe19c926f8fc1ef91dc9801310ed25fd2b1"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-SemiBold.woff2",
+      "SPDXID": "SPDXRef-File-92",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "baa3306c0e9ec17c77afaf7acf9ab842505ad194703703800f020f88161bfb3a"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/otf/AaahhhFontsVibe-ExtraBold.otf",
+      "SPDXID": "SPDXRef-File-93",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "54d2ab1e766fb0096a4fcd20a76a8b1403e16e0ebafbb3e9dc698448972a8638"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/ttf/AaahhhFontsVibe-ExtraBold.ttf",
+      "SPDXID": "SPDXRef-File-94",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "13ca26d1748f9896c95dbe09fb2becbb364209c6127d77eaec0602bed19a2a7f"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-ExtraBold.woff",
+      "SPDXID": "SPDXRef-File-95",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dde783d1634d84e843c56dd32ddf50170ab1b8c51eb75f19312ab3a2a2fd926d"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-ExtraBold.woff2",
+      "SPDXID": "SPDXRef-File-96",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a6f7de640d067d8ab3f7982567358011063f3935dc45d1de4bbfbf2157236e80"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/otf/AaahhhFontsVibe-Italic.otf",
+      "SPDXID": "SPDXRef-File-97",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "52e6f9975b4740f792437b91e74edc66dbdc08834ebea259c5d318547ffff030"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/ttf/AaahhhFontsVibe-Italic.ttf",
+      "SPDXID": "SPDXRef-File-98",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dc3c7b35d4ed7bcaca54b256c80acad1daa71da5d0161b1bede813f92768cc04"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-Italic.woff",
+      "SPDXID": "SPDXRef-File-99",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8f574c06366d8cc7d15b0caef224f11be12d0f2d8cecdcf5411c1b0665efd398"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-Italic.woff2",
+      "SPDXID": "SPDXRef-File-100",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b959d4cf06b7e2faa35aa391aa535f961dd5370c720e719acebd9f739b8a6eea"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/otf/AaahhhFontsVibe-SemiBoldItalic.otf",
+      "SPDXID": "SPDXRef-File-101",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "99cbc6857d7dc39189fa5f6b45a806e1087625a538543c804393b22a0995e8e4"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/ttf/AaahhhFontsVibe-SemiBoldItalic.ttf",
+      "SPDXID": "SPDXRef-File-102",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9a9679fd1aa851cb8c2271fd6653b1216977d718ff6fb90f821c0970975b32c6"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-SemiBoldItalic.woff",
+      "SPDXID": "SPDXRef-File-103",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f1d2cea5a115b6c25bafb236129d9b722c292e49c3d6c8d5f42b9f2538d06e41"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-SemiBoldItalic.woff2",
+      "SPDXID": "SPDXRef-File-104",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "67c679b1309291bb966c71e82673490897e45eeebdae289bf1498f61838c9ca1"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/otf/AaahhhFontsVibe-ExtraBoldItalic.otf",
+      "SPDXID": "SPDXRef-File-105",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c50d08ed155a75476f4a24498684c1b0f961e37232e44f9603738267e88af6b"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/ttf/AaahhhFontsVibe-ExtraBoldItalic.ttf",
+      "SPDXID": "SPDXRef-File-106",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a9c0246b25f64f922b40c25593c81893575ee20467aaa1318a370122868ff38b"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff/AaahhhFontsVibe-ExtraBoldItalic.woff",
+      "SPDXID": "SPDXRef-File-107",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d012ec940e995c5948d6dbcb311a2903a58ece5f5edb2b84338b7b17d94f2f55"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    },
+    {
+      "fileName": "./dist/aaahhh-fonts-vibe/woff2/AaahhhFontsVibe-ExtraBoldItalic.woff2",
+      "SPDXID": "SPDXRef-File-108",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1efc9501f012bb8c9fcbcf5b7327e2027f3d91925c6be3ddecda6ea1f78531f0"
+        }
+      ],
+      "licenseConcluded": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+      "copyrightText": "Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved. Exclusive copyright and read-only metadata lock permanently vested in Aravind Jayamohan, India; rebranding or altering copyright/metadata to any other name is strictly prohibited. Authorized Publishers: Aivibe Software Services Private Limited, Chennai; AjAir Tech Mobility LLP; QRaise Structures. Free unmodified use AS-IS WITHOUT WARRANTY; no modification or standalone font resale."
+    }
+  ]
+}

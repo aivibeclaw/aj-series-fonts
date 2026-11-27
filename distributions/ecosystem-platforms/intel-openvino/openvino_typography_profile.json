@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "3.1.0",
+  "platform": "intel-openvino-edge-vision",
+  "fontSuite": "AJ Series & Aaahhh Fonts Vibe",
+  "owner": "Aravind Jayamohan, India",
+  "license": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+  "gridFitting": {
+    "upm": 1000,
+    "capHeight": 720,
+    "gaspRange": "0xFFFF:0x000F",
+    "integerPpemFlag": true,
+    "tabularNumeralAdvanceUPM": 448
+  },
+  "edgeOcrProfiles": {
+    "9px_to_12px_micro_ui": { "recommendedFamily": "AJ Anushya", "fallback": "Aaahhh Fonts Vibe" },
+    "12px_to_24px_hud_subtitles": { "recommendedFamily": "AJ Shresti", "weight": 600 },
+    "24px_plus_signage_headers": { "recommendedFamily": "AJ Sahasvi", "weight": 800 }
+  },
+  "supportedScripts": [
+    "Latn", "Taml", "Deva", "Telu", "Mlym", "Knda", "Beng",
+    "Guru", "Arab", "Cyrl", "Jpan", "Hang", "Hans", "Thai", "Ethi"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "timeZone": "Asia/Kolkata",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "/* PLACEHOLDER: OAuth scope URL for documents.currentonly */",
+    "/* PLACEHOLDER: OAuth scope URL for presentations.currentonly */",
+    "/* PLACEHOLDER: OAuth scope URL for spreadsheets.currentonly */",
+    "/* PLACEHOLDER: OAuth scope URL for script.container.ui */"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Aaahhh Fonts Vibe — Sound of Font (AJ Series)",
+      "logoUrl": "https://fonts.aivibe.cloud/favicon.png",
+      "layoutProperties": {
+        "primaryColor": "#101E4A",
+        "secondaryColor": "#2456DC"
+      },
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    },
+    "docs": {},
+    "slides": {},
+    "sheets": {}
+  }
+}

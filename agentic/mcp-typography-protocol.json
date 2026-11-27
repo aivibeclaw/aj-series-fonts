@@ -1,0 +1,462 @@
+{
+  "name": "aj-series-typography",
+  "version": "3.1.0",
+  "description": "Read-only MCP / JSON-RPC 2.0 capability definition for the AJ Series & Aaahhh Fonts Vibe catalog. A protocol definition for implementers, not a hosted server.",
+  "copyright": "Copyright (c) 2026 Aravind Jayamohan, India",
+  "homepage": "https://fonts.aivibe.cloud",
+  "license": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+  "transport": {
+    "protocol": "JSON-RPC",
+    "jsonrpc": "2.0",
+    "methods": [
+      "initialize",
+      "tools/list",
+      "tools/call",
+      "resources/list",
+      "resources/read"
+    ]
+  },
+  "capabilities": {
+    "tools": {
+      "listChanged": false
+    },
+    "resources": {
+      "subscribe": false,
+      "listChanged": false
+    }
+  },
+  "policy": {
+    "access": "read-only",
+    "forbidden": [
+      "font_modification",
+      "metadata_alteration",
+      "rebranding",
+      "file_write",
+      "code_execution"
+    ]
+  },
+  "tools": [
+    {
+      "name": "aj_list_families",
+      "description": "List the 5 canonical families.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "families": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        },
+        "required": [
+          "families"
+        ],
+        "additionalProperties": false
+      },
+      "annotations": {
+        "title": "List families",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "aj_find_styles",
+      "description": "Look up style records in the Spark index.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "family": {
+            "type": "string",
+            "enum": [
+              "aj-sahasvi",
+              "aj-shresti",
+              "aj-talin",
+              "aj-anushya",
+              "aaahhh-fonts-vibe"
+            ]
+          },
+          "weight": {
+            "type": "integer",
+            "enum": [
+              400,
+              600,
+              800
+            ]
+          },
+          "italic": {
+            "type": "boolean"
+          },
+          "language": {
+            "enum": [
+              "en",
+              "ta",
+              "ta-sen",
+              "hi",
+              "hi-prathmic",
+              "te",
+              "ml",
+              "kn",
+              "bn",
+              "mr",
+              "pa",
+              "ar",
+              "ur",
+              "sa",
+              "ja",
+              "ru",
+              "es",
+              "fr",
+              "de",
+              "ms",
+              "zh",
+              "ko",
+              "th",
+              "am",
+              "vi"
+            ]
+          },
+          "level": {
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "body",
+              "sound"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "records": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/sparkIndexRecord"
+            }
+          }
+        },
+        "required": [
+          "records"
+        ],
+        "additionalProperties": false,
+        "$defs": {
+          "sparkIndexRecord": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "family",
+              "style",
+              "weight",
+              "italic",
+              "level",
+              "woff2Url",
+              "languages",
+              "features",
+              "license"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "PostScript name, e.g. AJShresti-SemiBold"
+              },
+              "family": {
+                "type": "string"
+              },
+              "style": {
+                "type": "string"
+              },
+              "weight": {
+                "type": "integer",
+                "enum": [
+                  400,
+                  600,
+                  800
+                ]
+              },
+              "italic": {
+                "type": "boolean"
+              },
+              "level": {
+                "enum": [
+                  "1",
+                  "2",
+                  "3",
+                  "body",
+                  "sound"
+                ]
+              },
+              "woff2Url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "sriSha384": {
+                "type": "string"
+              },
+              "languages": {
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "en",
+                    "ta",
+                    "ta-sen",
+                    "hi",
+                    "hi-prathmic",
+                    "te",
+                    "ml",
+                    "kn",
+                    "bn",
+                    "mr",
+                    "pa",
+                    "ar",
+                    "ur",
+                    "sa",
+                    "ja",
+                    "ru",
+                    "es",
+                    "fr",
+                    "de",
+                    "ms",
+                    "zh",
+                    "ko",
+                    "th",
+                    "am",
+                    "vi"
+                  ]
+                }
+              },
+              "features": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]{4}$"
+                }
+              },
+              "license": {
+                "const": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1"
+              }
+            }
+          }
+        }
+      },
+      "annotations": {
+        "title": "Find styles",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "aj_build_css",
+      "description": "Return CSS text for a style. Nothing is written or fetched.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "family": {
+            "type": "string",
+            "enum": [
+              "aj-sahasvi",
+              "aj-shresti",
+              "aj-talin",
+              "aj-anushya",
+              "aaahhh-fonts-vibe"
+            ]
+          },
+          "weight": {
+            "type": "integer",
+            "enum": [
+              400,
+              600,
+              800
+            ]
+          },
+          "italic": {
+            "type": "boolean"
+          },
+          "features": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]{4}$"
+            }
+          }
+        },
+        "required": [
+          "family"
+        ],
+        "additionalProperties": false
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "css": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "css"
+        ],
+        "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Build CSS",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
+      }
+    }
+  ],
+  "resources": [
+    {
+      "uri": "aj-fonts://catalog/manifest",
+      "name": "Capability manifest",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "aj-fonts://catalog/spark-index",
+      "name": "Spark index (27 records)",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "aj-fonts://license",
+      "name": "Ecosystem license",
+      "mimeType": "text/markdown"
+    }
+  ],
+  "sparkIndex": {
+    "recordCount": 27,
+    "keys": [
+      "family",
+      "weight",
+      "italic",
+      "language",
+      "level"
+    ],
+    "lookupLatencyBudgetMs": 1,
+    "latencyNote": "Design budget (<1 ms) for in-memory lookups after load; excludes startup and transport. Measure in your implementation.",
+    "buildStrategy": "Build once from the static catalog and hold in memory; no font parsing or network access at query time."
+  },
+  "$defs": {
+    "sparkIndexRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "family",
+        "style",
+        "weight",
+        "italic",
+        "level",
+        "woff2Url",
+        "languages",
+        "features",
+        "license"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "PostScript name, e.g. AJShresti-SemiBold"
+        },
+        "family": {
+          "type": "string"
+        },
+        "style": {
+          "type": "string"
+        },
+        "weight": {
+          "type": "integer",
+          "enum": [
+            400,
+            600,
+            800
+          ]
+        },
+        "italic": {
+          "type": "boolean"
+        },
+        "level": {
+          "enum": [
+            "1",
+            "2",
+            "3",
+            "body",
+            "sound"
+          ]
+        },
+        "woff2Url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sriSha384": {
+          "type": "string"
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "en",
+              "ta",
+              "ta-sen",
+              "hi",
+              "hi-prathmic",
+              "te",
+              "ml",
+              "kn",
+              "bn",
+              "mr",
+              "pa",
+              "ar",
+              "ur",
+              "sa",
+              "ja",
+              "ru",
+              "es",
+              "fr",
+              "de",
+              "ms",
+              "zh",
+              "ko",
+              "th",
+              "am",
+              "vi"
+            ]
+          }
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]{4}$"
+          }
+        },
+        "license": {
+          "const": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1"
+        }
+      }
+    }
+  },
+  "errors": [
+    {
+      "code": -32602,
+      "message": "Invalid params"
+    },
+    {
+      "code": -32601,
+      "message": "Method not found"
+    }
+  ]
+}

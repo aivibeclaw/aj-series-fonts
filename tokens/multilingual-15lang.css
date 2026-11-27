@@ -1,0 +1,52 @@
+/* AJ Series & Aaahhh Fonts Vibe v3.1.0 — 5 families · 27 styles · 25 languages · 14 native non-Latin scripts
+ * Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved.
+ * Filename kept for compatibility. @font-face rules (published CDN URLs) come from aj-series.css.
+ */
+@import url("./aj-series.css");
+
+/* Language defaults */
+:where([lang="en"], [lang|="en"]) { font-family: var(--aj-font-body); line-height: 1.6; }
+:where([lang="ta"], [lang|="ta"]) { font-family: var(--aj-font-body); line-height: 1.74; }
+:where([lang="ta-sen"], [lang|="ta-sen"]) { font-family: var(--aj-font-body); line-height: 1.74; }
+:where([lang="hi"], [lang|="hi"]) { font-family: var(--aj-font-body); line-height: 1.72; }
+:where([lang="hi-prathmic"], [lang|="hi-prathmic"]) { font-family: var(--aj-font-body); line-height: 1.72; }
+:where([lang="te"], [lang|="te"]) { font-family: var(--aj-font-body); line-height: 1.78; }
+:where([lang="ml"], [lang|="ml"]) { font-family: var(--aj-font-body); line-height: 1.76; }
+:where([lang="kn"], [lang|="kn"]) { font-family: var(--aj-font-body); line-height: 1.76; }
+:where([lang="bn"], [lang|="bn"]) { font-family: var(--aj-font-body); line-height: 1.72; }
+:where([lang="mr"], [lang|="mr"]) { font-family: var(--aj-font-body); line-height: 1.72; }
+:where([lang="pa"], [lang|="pa"]) { font-family: var(--aj-font-body); line-height: 1.72; }
+:where([lang="ar"], [lang|="ar"]) { font-family: var(--aj-font-body); line-height: 1.8; direction: rtl; }
+:where([lang="ur"], [lang|="ur"]) { font-family: var(--aj-font-body); line-height: 1.9; direction: rtl; }
+:where([lang="sa"], [lang|="sa"]) { font-family: var(--aj-font-body); line-height: 1.72; }
+:where([lang="ja"], [lang|="ja"]) { font-family: var(--aj-font-body); line-height: 1.7; }
+:where([lang="ru"], [lang|="ru"]) { font-family: var(--aj-font-body); line-height: 1.6; }
+:where([lang="es"], [lang|="es"]) { font-family: var(--aj-font-body); line-height: 1.6; }
+:where([lang="fr"], [lang|="fr"]) { font-family: var(--aj-font-body); line-height: 1.6; }
+:where([lang="de"], [lang|="de"]) { font-family: var(--aj-font-body); line-height: 1.6; }
+:where([lang="ms"], [lang|="ms"]) { font-family: var(--aj-font-body); line-height: 1.6; }
+:where([lang="zh"], [lang|="zh"]) { font-family: var(--aj-font-body); line-height: 1.68; }
+:where([lang="ko"], [lang|="ko"]) { font-family: var(--aj-font-body); line-height: 1.65; word-break: keep-all; }
+:where([lang="th"], [lang|="th"]) { font-family: var(--aj-font-body); line-height: 1.75; }
+:where([lang="am"], [lang|="am"]) { font-family: var(--aj-font-body); line-height: 1.65; }
+:where([lang="vi"], [lang|="vi"]) { font-family: var(--aj-font-body); line-height: 1.65; }
+
+/* Headings keep the level hierarchy in every language */
+h1 { font-family: var(--aj-font-heading); }
+h2, h3 { font-family: var(--aj-font-subheading); }
+
+/* Sound of Font: opt-in phonetic shaping (Aaahhh Fonts Vibe only) */
+[data-aj-sound="ta"] { font-family: var(--aj-font-sound); font-feature-settings: "ss06" 1, "calt" 1; }
+[data-aj-sound="hi"] { font-family: var(--aj-font-sound); font-feature-settings: "ss07" 1, "calt" 1; }
+[data-aj-sound="te"] { font-family: var(--aj-font-sound); font-feature-settings: "ss08" 1, "calt" 1; }
+[data-aj-sound="ml"] { font-family: var(--aj-font-sound); font-feature-settings: "ss09" 1, "calt" 1; }
+[data-aj-sound="kn"] { font-family: var(--aj-font-sound); font-feature-settings: "ss10" 1, "calt" 1; }
+[data-aj-sound="bn"] { font-family: var(--aj-font-sound); font-feature-settings: "ss11" 1, "calt" 1; }
+[data-aj-sound="pa"] { font-family: var(--aj-font-sound); font-feature-settings: "ss12" 1, "calt" 1; }
+[data-aj-sound="ar"] { font-family: var(--aj-font-sound); font-feature-settings: "ss13" 1, "calt" 1; }
+[data-aj-sound="ur"] { font-family: var(--aj-font-sound); font-feature-settings: "ss13" 1, "calt" 1; }
+[data-aj-sound="ja"] { font-family: var(--aj-font-sound); font-feature-settings: "ss14" 1, "calt" 1; }
+[data-aj-sound="ru"] { font-family: var(--aj-font-sound); font-feature-settings: "ss15" 1, "calt" 1; }
+[data-aj-sound="zh"] { font-family: var(--aj-font-sound); font-feature-settings: "ss16" 1, "calt" 1; }
+[data-aj-sound="th"] { font-family: var(--aj-font-sound); font-feature-settings: "ss17" 1, "calt" 1; }
+[data-aj-sound="am"] { font-family: var(--aj-font-sound); font-feature-settings: "ss18" 1, "calt" 1; }

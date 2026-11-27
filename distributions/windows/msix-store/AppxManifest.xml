@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4"
+  xmlns:uap7="http://schemas.microsoft.com/appx/manifest/uap/windows10/7"
+  IgnorableNamespaces="uap uap4 uap7">
+
+  <Identity
+    Name="AivibeSoftwareServices.AJSeriesFonts"
+    Publisher="CN=Aivibe Software Services Private Limited, O=Aivibe Software Services Private Limited, L=Chennai, C=IN"
+    Version="3.1.0.0"
+    ProcessorArchitecture="neutral" />
+
+  <Properties>
+    <DisplayName>AJ Series Enterprise System Fonts</DisplayName>
+    <PublisherDisplayName>Aivibe Software Services Private Limited</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Framework>false</Framework>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0" />
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="en-IN" />
+    <Resource Language="en-US" />
+  </Resources>
+
+  <Extensions>
+    <uap7:Extension Category="windows.sharedFonts">
+      <uap7:SharedFonts>
+        <uap4:Font File="Assets\Fonts\AaahhhFontsVibe-ExtraBold.ttf" />
+        <uap4:Font File="Assets\Fonts\AaahhhFontsVibe-ExtraBoldItalic.ttf" />
+        <uap4:Font File="Assets\Fonts\AaahhhFontsVibe-Italic.ttf" />
+        <uap4:Font File="Assets\Fonts\AaahhhFontsVibe-Regular.ttf" />
+        <uap4:Font File="Assets\Fonts\AaahhhFontsVibe-SemiBold.ttf" />
+        <uap4:Font File="Assets\Fonts\AaahhhFontsVibe-SemiBoldItalic.ttf" />
+        <uap4:Font File="Assets\Fonts\AJAnushya-ExtraBold.ttf" />
+        <uap4:Font File="Assets\Fonts\AJAnushya-ExtraBoldItalic.ttf" />
+        <uap4:Font File="Assets\Fonts\AJAnushya-Italic.ttf" />
+        <uap4:Font File="Assets\Fonts\AJAnushya-Regular.ttf" />
+        <uap4:Font File="Assets\Fonts\AJAnushya-SemiBold.ttf" />
+        <uap4:Font File="Assets\Fonts\AJAnushya-SemiBoldItalic.ttf" />
+        <uap4:Font File="Assets\Fonts\AJSahasvi-ExtraBold.ttf" />
+        <uap4:Font File="Assets\Fonts\AJSahasvi-Regular.ttf" />
+        <uap4:Font File="Assets\Fonts\AJSahasvi-SemiBold.ttf" />
+        <uap4:Font File="Assets\Fonts\AJShresti-ExtraBold.ttf" />
+        <uap4:Font File="Assets\Fonts\AJShresti-ExtraBoldItalic.ttf" />
+        <uap4:Font File="Assets\Fonts\AJShresti-Italic.ttf" />
+        <uap4:Font File="Assets\Fonts\AJShresti-Regular.ttf" />
+        <uap4:Font File="Assets\Fonts\AJShresti-SemiBold.ttf" />
+        <uap4:Font File="Assets\Fonts\AJShresti-SemiBoldItalic.ttf" />
+        <uap4:Font File="Assets\Fonts\AJTalin-ExtraBold.ttf" />
+        <uap4:Font File="Assets\Fonts\AJTalin-ExtraBoldItalic.ttf" />
+        <uap4:Font File="Assets\Fonts\AJTalin-Italic.ttf" />
+        <uap4:Font File="Assets\Fonts\AJTalin-Regular.ttf" />
+        <uap4:Font File="Assets\Fonts\AJTalin-SemiBold.ttf" />
+        <uap4:Font File="Assets\Fonts\AJTalin-SemiBoldItalic.ttf" />
+      </uap7:SharedFonts>
+    </uap7:Extension>
+  </Extensions>
+</Package>

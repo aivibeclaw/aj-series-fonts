@@ -1,0 +1,72 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "typography": {
+      "fontFamilies": [
+        {
+          "name": "AJ Sahasvi (Headings · Royal Small-Caps)",
+          "slug": "aj-sahasvi",
+          "fontFamily": "'AJ Sahasvi', Georgia, serif",
+          "fontFace": [
+            { "fontFamily": "AJ Sahasvi", "fontStyle": "normal", "fontWeight": "400", "src": ["https://fonts.aivibe.cloud/fonts/AJSahasvi-Regular.woff2"] },
+            { "fontFamily": "AJ Sahasvi", "fontStyle": "normal", "fontWeight": "600", "src": ["https://fonts.aivibe.cloud/fonts/AJSahasvi-SemiBold.woff2"] },
+            { "fontFamily": "AJ Sahasvi", "fontStyle": "normal", "fontWeight": "800", "src": ["https://fonts.aivibe.cloud/fonts/AJSahasvi-ExtraBold.woff2"] }
+          ]
+        },
+        {
+          "name": "AJ Shresti (System UI & Subtitles)",
+          "slug": "aj-shresti",
+          "fontFamily": "'AJ Shresti', system-ui, sans-serif",
+          "fontFace": [
+            { "fontFamily": "AJ Shresti", "fontStyle": "normal", "fontWeight": "400", "src": ["https://fonts.aivibe.cloud/fonts/AJShresti-Regular.woff2"] },
+            { "fontFamily": "AJ Shresti", "fontStyle": "normal", "fontWeight": "600", "src": ["https://fonts.aivibe.cloud/fonts/AJShresti-SemiBold.woff2"] },
+            { "fontFamily": "AJ Shresti", "fontStyle": "normal", "fontWeight": "800", "src": ["https://fonts.aivibe.cloud/fonts/AJShresti-ExtraBold.woff2"] },
+            { "fontFamily": "AJ Shresti", "fontStyle": "italic", "fontWeight": "400", "src": ["https://fonts.aivibe.cloud/fonts/AJShresti-Italic.woff2"] },
+            { "fontFamily": "AJ Shresti", "fontStyle": "italic", "fontWeight": "600", "src": ["https://fonts.aivibe.cloud/fonts/AJShresti-SemiBoldItalic.woff2"] },
+            { "fontFamily": "AJ Shresti", "fontStyle": "italic", "fontWeight": "800", "src": ["https://fonts.aivibe.cloud/fonts/AJShresti-ExtraBoldItalic.woff2"] }
+          ]
+        },
+        {
+          "name": "AJ Anushya (Zero-Stub Reading Clarity)",
+          "slug": "aj-anushya",
+          "fontFamily": "'AJ Anushya', system-ui, sans-serif",
+          "fontFace": [
+            { "fontFamily": "AJ Anushya", "fontStyle": "normal", "fontWeight": "400", "src": ["https://fonts.aivibe.cloud/fonts/AJAnushya-Regular.woff2"] },
+            { "fontFamily": "AJ Anushya", "fontStyle": "normal", "fontWeight": "600", "src": ["https://fonts.aivibe.cloud/fonts/AJAnushya-SemiBold.woff2"] },
+            { "fontFamily": "AJ Anushya", "fontStyle": "normal", "fontWeight": "800", "src": ["https://fonts.aivibe.cloud/fonts/AJAnushya-ExtraBold.woff2"] },
+            { "fontFamily": "AJ Anushya", "fontStyle": "italic", "fontWeight": "400", "src": ["https://fonts.aivibe.cloud/fonts/AJAnushya-Italic.woff2"] },
+            { "fontFamily": "AJ Anushya", "fontStyle": "italic", "fontWeight": "600", "src": ["https://fonts.aivibe.cloud/fonts/AJAnushya-SemiBoldItalic.woff2"] },
+            { "fontFamily": "AJ Anushya", "fontStyle": "italic", "fontWeight": "800", "src": ["https://fonts.aivibe.cloud/fonts/AJAnushya-ExtraBoldItalic.woff2"] }
+          ]
+        },
+        {
+          "name": "AJ Talin (0° Connected Running Script)",
+          "slug": "aj-talin",
+          "fontFamily": "'AJ Talin', cursive",
+          "fontFace": [
+            { "fontFamily": "AJ Talin", "fontStyle": "normal", "fontWeight": "400", "src": ["https://fonts.aivibe.cloud/fonts/AJTalin-Regular.woff2"] },
+            { "fontFamily": "AJ Talin", "fontStyle": "normal", "fontWeight": "600", "src": ["https://fonts.aivibe.cloud/fonts/AJTalin-SemiBold.woff2"] },
+            { "fontFamily": "AJ Talin", "fontStyle": "normal", "fontWeight": "800", "src": ["https://fonts.aivibe.cloud/fonts/AJTalin-ExtraBold.woff2"] },
+            { "fontFamily": "AJ Talin", "fontStyle": "italic", "fontWeight": "400", "src": ["https://fonts.aivibe.cloud/fonts/AJTalin-Italic.woff2"] },
+            { "fontFamily": "AJ Talin", "fontStyle": "italic", "fontWeight": "600", "src": ["https://fonts.aivibe.cloud/fonts/AJTalin-SemiBoldItalic.woff2"] },
+            { "fontFamily": "AJ Talin", "fontStyle": "italic", "fontWeight": "800", "src": ["https://fonts.aivibe.cloud/fonts/AJTalin-ExtraBoldItalic.woff2"] }
+          ]
+        },
+        {
+          "name": "Aaahhh Fonts Vibe (Sound of Font)",
+          "slug": "aaahhh-fonts-vibe",
+          "fontFamily": "'Aaahhh Fonts Vibe', 'AJ Anushya', system-ui, sans-serif",
+          "fontFace": [
+            { "fontFamily": "Aaahhh Fonts Vibe", "fontStyle": "normal", "fontWeight": "400", "src": ["https://fonts.aivibe.cloud/fonts/AaahhhFontsVibe-Regular.woff2"] },
+            { "fontFamily": "Aaahhh Fonts Vibe", "fontStyle": "normal", "fontWeight": "600", "src": ["https://fonts.aivibe.cloud/fonts/AaahhhFontsVibe-SemiBold.woff2"] },
+            { "fontFamily": "Aaahhh Fonts Vibe", "fontStyle": "normal", "fontWeight": "800", "src": ["https://fonts.aivibe.cloud/fonts/AaahhhFontsVibe-ExtraBold.woff2"] },
+            { "fontFamily": "Aaahhh Fonts Vibe", "fontStyle": "italic", "fontWeight": "400", "src": ["https://fonts.aivibe.cloud/fonts/AaahhhFontsVibe-Italic.woff2"] },
+            { "fontFamily": "Aaahhh Fonts Vibe", "fontStyle": "italic", "fontWeight": "600", "src": ["https://fonts.aivibe.cloud/fonts/AaahhhFontsVibe-SemiBoldItalic.woff2"] },
+            { "fontFamily": "Aaahhh Fonts Vibe", "fontStyle": "italic", "fontWeight": "800", "src": ["https://fonts.aivibe.cloud/fonts/AaahhhFontsVibe-ExtraBoldItalic.woff2"] }
+          ]
+        }
+      ]
+    }
+  }
+}

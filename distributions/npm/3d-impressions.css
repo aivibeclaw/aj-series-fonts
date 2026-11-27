@@ -1,0 +1,5 @@
+/* AJ Series v3.1.0: named CPAL palette profiles */
+@font-palette-values --aj-press-cotton { font-family: 'AJ Sahasvi', 'AJ Shresti', 'AJ Talin', 'AJ Anushya', 'Aaahhh Fonts Vibe'; base-palette: 0; }
+@font-palette-values --aj-press-dark { font-family: 'AJ Sahasvi', 'AJ Shresti', 'AJ Talin', 'AJ Anushya', 'Aaahhh Fonts Vibe'; base-palette: 1; }
+@font-palette-values --aj-press-linen { font-family: 'AJ Sahasvi', 'AJ Shresti', 'AJ Talin', 'AJ Anushya', 'Aaahhh Fonts Vibe'; base-palette: 2; }
+@font-palette-values --aj-press-gold { font-family: 'AJ Sahasvi', 'AJ Shresti', 'AJ Talin', 'AJ Anushya', 'Aaahhh Fonts Vibe'; base-palette: 3; }

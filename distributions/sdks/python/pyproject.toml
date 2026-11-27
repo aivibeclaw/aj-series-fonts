@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aj-series-fonts"
+version = "3.1.0"
+description = "AJ Series & Aaahhh Fonts Vibe v3.1.0 — Zero-dependency catalog, @font-face & OpenType ss06-ss18 SDK"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1" }
+authors = [{ name = "Aravind Jayamohan" }]
+keywords = ["fonts", "typography", "opentype", "colrv1", "sound-of-font", "ocr", "multilingual"]
+
+[project.urls]
+Homepage = "https://fonts.aivibe.cloud"
+Repository = "https://github.com/aivibe-org/aj-series-fonts"
+
+[tool.setuptools]
+py-modules = ["aj_fonts_sdk"]

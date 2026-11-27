@@ -1,0 +1,37 @@
+# AJ Series Fonts — Linux XCompose Global Currency & Smart Symbol Table
+# Copy or include in ~/.XCompose
+# Copyright (c) 2026 Aravind Jayamohan, India (@ajaitech) — v3.1.0 — https://fonts.aivibe.cloud
+<Multi_key> <i> <n> <r> : "₹" U20B9 # INDIAN RUPEE SIGN
+<Multi_key> <e> <u> <r> : "€" U20AC # EURO SIGN
+<Multi_key> <g> <b> <p> : "£" U00A3 # POUND SIGN
+<Multi_key> <j> <p> <y> : "¥" U00A5 # YEN SIGN
+<Multi_key> <k> <r> <w> : "₩" U20A9 # WON SIGN
+<Multi_key> <s> <a> <r> : "⃁" U20C1 # SAUDI RIYAL SIGN (Unicode 17.0)
+<Multi_key> <a> <e> <d> : "⃃" U20C3 # UAE DIRHAM SIGN (Unicode 18.0)
+<Multi_key> <b> <t> <c> : "₿" U20BF # BITCOIN SIGN
+<Multi_key> <t> <h> <b> : "฿" U0E3F # THAI BAHT SIGN
+<Multi_key> <v> <n> <d> : "₫" U20AB # DONG SIGN
+<Multi_key> <t> <r> <y> : "₺" U20BA # TURKISH LIRA SIGN
+<Multi_key> <r> <u> <b> : "₽" U20BD # RUBLE SIGN
+<Multi_key> <p> <h> <p> : "₱" U20B1 # PESO SIGN
+<Multi_key> <n> <g> <n> : "₦" U20A6 # NAIRA SIGN
+<Multi_key> <i> <l> <s> : "₪" U20AA # NEW SHEQEL SIGN
+<Multi_key> <u> <a> <h> : "₴" U20B4 # HRYVNIA SIGN
+<Multi_key> <b> <d> <t> : "৳" U09F3 # BENGALI RUPEE SIGN (TAKA)
+<Multi_key> <t> <m> <r> : "௹" U0BF9 # TAMIL RUPEE SIGN
+<Multi_key> <o> <k>     : "✓" U2713 # CHECK MARK
+<Multi_key> <a> <i>     : "✦" U2726 # AI SPARKLE
+# Aaahhh Fonts Vibe — Sound of Font Phonetic Compose Sequences
+<Multi_key> <t> <a> <v> : "வணக்கம்" # Tamil Vanakkam
+<Multi_key> <t> <a> <1> : "ஒன்று"   # Tamil 1u / onnu / ondru
+<Multi_key> <t> <a> <2> : "இரண்டு"  # Tamil 2u / irandu
+<Multi_key> <t> <a> <3> : "மூன்று"  # Tamil 3u / moondru
+<Multi_key> <t> <a> <4> : "நான்கு"  # Tamil 4u / naangu
+<Multi_key> <t> <a> <5> : "ஐந்து"   # Tamil 5u / aindhu
+<Multi_key> <h> <i> <n> : "नमस्ते"   # Hindi Namaste
+<Multi_key> <b> <n> <n> : "নমস্কার" # Bengali Nomoshkar
+<Multi_key> <u> <r> <a> : "آداب"    # Urdu Adab
+<Multi_key> <p> <a> <s> : "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ" # Punjabi Sat Sri Akal
+<Multi_key> <z> <h> <n> : "你好"     # Chinese Nihao
+<Multi_key> <t> <h> <s> : "สวัสดี"   # Thai Sawatdee
+<Multi_key> <a> <m> <s> : "ሰላም"     # Amharic Selam

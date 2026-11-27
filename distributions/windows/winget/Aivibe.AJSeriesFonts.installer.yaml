@@ -1,0 +1,19 @@
+PackageIdentifier: Aivibe.AJSeriesFonts
+PackageVersion: 3.1.0
+Installers:
+  - Architecture: x64
+    InstallerType: wix
+    Scope: machine
+    InstallerUrl: https://github.com/aivibe-org/aj-series-fonts/releases/download/v3.1.0/AJ-Series-Fonts-v3.1.0-Windows-Core.msi
+    InstallerSha256: BDBF96EC19B4383A6C4917E9C4EC226F92F7BCC1B35DA35CDDFD99AF6DB70CB2
+  - Architecture: neutral
+    InstallerType: zip
+    NestedInstallerType: portable
+    NestedInstallerFiles:
+      - RelativeFilePath: install-aj-fonts.ps1
+        PortableCommandAlias: install-aj-fonts
+    Scope: machine
+    InstallerUrl: https://github.com/aivibe-org/aj-series-fonts/releases/download/v3.1.0/AJ-Series-Fonts-v3.1.0-Windows-Core.zip
+    InstallerSha256: 66C7E61528B07C1935EAD6EA305185C11DD84B8EC4B399EFB0085FE47C2CE37D
+ManifestType: installer
+ManifestVersion: 1.6.0

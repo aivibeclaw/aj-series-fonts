@@ -1,0 +1,373 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "ajSeries": {
+    "meta": {
+      "version": {
+        "$value": "3.1.0",
+        "$type": "string"
+      },
+      "owner": {
+        "$value": "Aravind Jayamohan, India",
+        "$type": "string"
+      },
+      "authorizedLicensees": {
+        "aivibe": {
+          "$value": "Aivibe Software Services Private Limited, Chennai",
+          "$type": "string"
+        },
+        "ajair": {
+          "$value": "AjAir Tech Mobility LLP",
+          "$type": "string"
+        },
+        "qraise": {
+          "$value": "QRaise Structures",
+          "$type": "string"
+        }
+      },
+      "githubHandle": {
+        "$value": "@ajaitech",
+        "$type": "string"
+      },
+      "license": {
+        "$value": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+        "$type": "string"
+      },
+      "homepage": {
+        "$value": "https://fonts.aivibe.cloud",
+        "$type": "string"
+      },
+      "fontBaseUrl": {
+        "$value": "https://fonts.aivibe.cloud/fonts/",
+        "$type": "string"
+      },
+      "install": {
+        "$value": "https://fonts.aivibe.cloud/install",
+        "$type": "string"
+      },
+      "counts": {
+        "families": {
+          "$value": 5,
+          "$type": "number"
+        },
+        "styles": {
+          "$value": 27,
+          "$type": "number"
+        },
+        "binaries": {
+          "$value": 108,
+          "$type": "number"
+        },
+        "languages": {
+          "$value": 25,
+          "$type": "number"
+        },
+        "nonLatinScripts": {
+          "$value": 14,
+          "$type": "number"
+        }
+      },
+      "locales": {
+        "$value": [
+          "en",
+          "ta",
+          "ta-sen",
+          "hi",
+          "hi-prathmic",
+          "te",
+          "ml",
+          "kn",
+          "bn",
+          "mr",
+          "pa",
+          "ar",
+          "ur",
+          "sa",
+          "ja",
+          "ru",
+          "es",
+          "fr",
+          "de",
+          "ms",
+          "zh",
+          "ko",
+          "th",
+          "am",
+          "vi"
+        ],
+        "$type": "other"
+      }
+    },
+    "fontFamily": {
+      "heading": {
+        "$value": [
+          "AJ Sahasvi",
+          "AJ Shresti",
+          "Georgia",
+          "serif"
+        ],
+        "$type": "fontFamily"
+      },
+      "subheading": {
+        "$value": [
+          "AJ Shresti",
+          "system-ui",
+          "sans-serif"
+        ],
+        "$type": "fontFamily"
+      },
+      "osDefault": {
+        "$value": [
+          "AJ Shresti",
+          "system-ui",
+          "sans-serif"
+        ],
+        "$type": "fontFamily"
+      },
+      "script": {
+        "$value": [
+          "AJ Talin",
+          "AJ Anushya",
+          "cursive"
+        ],
+        "$type": "fontFamily"
+      },
+      "body": {
+        "$value": [
+          "AJ Anushya",
+          "system-ui",
+          "sans-serif"
+        ],
+        "$type": "fontFamily"
+      },
+      "soundOfFont": {
+        "$value": [
+          "Aaahhh Fonts Vibe",
+          "AJ Anushya",
+          "system-ui",
+          "sans-serif"
+        ],
+        "$type": "fontFamily"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "$value": 400,
+        "$type": "fontWeight"
+      },
+      "boldL1": {
+        "$value": 600,
+        "$type": "fontWeight"
+      },
+      "boldL2": {
+        "$value": 800,
+        "$type": "fontWeight"
+      }
+    },
+    "metrics": {
+      "upm": {
+        "$value": 1000,
+        "$type": "number"
+      },
+      "capHeight": {
+        "$value": 720,
+        "$type": "number"
+      },
+      "baseline": {
+        "$value": 0,
+        "$type": "number"
+      },
+      "descender": {
+        "$value": -180,
+        "$type": "number"
+      },
+      "xHeight": {
+        "shresti": {
+          "$value": 534,
+          "$type": "number"
+        },
+        "sahasvi": {
+          "$value": 516,
+          "$type": "number"
+        },
+        "anushya": {
+          "$value": 556,
+          "$type": "number"
+        },
+        "talin": {
+          "$value": 492,
+          "$type": "number"
+        },
+        "aaahhhFontsVibe": {
+          "$value": 558,
+          "$type": "number"
+        }
+      }
+    },
+    "typography": {
+      "heroDisplay": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.heading}",
+          "fontWeight": "{ajSeries.fontWeight.boldL2}",
+          "fontSize": "3rem",
+          "lineHeight": 1.12,
+          "letterSpacing": "-0.015em"
+        }
+      },
+      "sectionSubheading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.subheading}",
+          "fontWeight": "{ajSeries.fontWeight.boldL1}",
+          "fontSize": "1.5rem",
+          "lineHeight": 1.25,
+          "letterSpacing": "0em"
+        }
+      },
+      "bodyReading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.body}",
+          "fontWeight": "{ajSeries.fontWeight.regular}",
+          "fontSize": "1rem",
+          "lineHeight": 1.6,
+          "letterSpacing": "0.01em"
+        }
+      },
+      "microAppLabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.body}",
+          "fontWeight": "{ajSeries.fontWeight.boldL1}",
+          "fontSize": "0.6875rem",
+          "lineHeight": 1.25,
+          "letterSpacing": "0.02em"
+        }
+      },
+      "editorialSignature": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.script}",
+          "fontWeight": "{ajSeries.fontWeight.regular}",
+          "fontSize": "2rem",
+          "lineHeight": 1.35,
+          "letterSpacing": "0em"
+        }
+      },
+      "soundOfFont": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ajSeries.fontFamily.soundOfFont}",
+          "fontWeight": "{ajSeries.fontWeight.regular}",
+          "fontSize": "1rem",
+          "lineHeight": 1.6,
+          "letterSpacing": "0em"
+        }
+      }
+    },
+    "families": {
+      "AJSahasvi": {
+        "name": {
+          "$value": "AJ Sahasvi",
+          "$type": "string"
+        },
+        "styles": {
+          "$value": [
+            "Regular",
+            "SemiBold",
+            "ExtraBold"
+          ],
+          "$type": "other"
+        },
+        "woff2UrlPattern": {
+          "$value": "https://fonts.aivibe.cloud/fonts/AJSahasvi-{style}.woff2",
+          "$type": "string"
+        }
+      },
+      "AJShresti": {
+        "name": {
+          "$value": "AJ Shresti",
+          "$type": "string"
+        },
+        "styles": {
+          "$value": [
+            "Regular",
+            "SemiBold",
+            "ExtraBold",
+            "Italic",
+            "SemiBoldItalic",
+            "ExtraBoldItalic"
+          ],
+          "$type": "other"
+        },
+        "woff2UrlPattern": {
+          "$value": "https://fonts.aivibe.cloud/fonts/AJShresti-{style}.woff2",
+          "$type": "string"
+        }
+      },
+      "AJTalin": {
+        "name": {
+          "$value": "AJ Talin",
+          "$type": "string"
+        },
+        "styles": {
+          "$value": [
+            "Regular",
+            "SemiBold",
+            "ExtraBold",
+            "Italic",
+            "SemiBoldItalic",
+            "ExtraBoldItalic"
+          ],
+          "$type": "other"
+        },
+        "woff2UrlPattern": {
+          "$value": "https://fonts.aivibe.cloud/fonts/AJTalin-{style}.woff2",
+          "$type": "string"
+        }
+      },
+      "AJAnushya": {
+        "name": {
+          "$value": "AJ Anushya",
+          "$type": "string"
+        },
+        "styles": {
+          "$value": [
+            "Regular",
+            "SemiBold",
+            "ExtraBold",
+            "Italic",
+            "SemiBoldItalic",
+            "ExtraBoldItalic"
+          ],
+          "$type": "other"
+        },
+        "woff2UrlPattern": {
+          "$value": "https://fonts.aivibe.cloud/fonts/AJAnushya-{style}.woff2",
+          "$type": "string"
+        }
+      },
+      "AaahhhFontsVibe": {
+        "name": {
+          "$value": "Aaahhh Fonts Vibe",
+          "$type": "string"
+        },
+        "styles": {
+          "$value": [
+            "Regular",
+            "SemiBold",
+            "ExtraBold",
+            "Italic",
+            "SemiBoldItalic",
+            "ExtraBoldItalic"
+          ],
+          "$type": "other"
+        },
+        "woff2UrlPattern": {
+          "$value": "https://fonts.aivibe.cloud/fonts/AaahhhFontsVibe-{style}.woff2",
+          "$type": "string"
+        }
+      }
+    }
+  }
+}

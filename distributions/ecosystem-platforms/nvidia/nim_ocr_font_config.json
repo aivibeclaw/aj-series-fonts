@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "3.1.0",
+  "profile": "nvidia-nim-nemo-ocr-ultra-clarity",
+  "owner": "Aravind Jayamohan, India",
+  "license": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+  "families": [
+    { "slug": "aj-sahasvi", "name": "AJ Sahasvi", "weights": [400, 600, 800], "role": "H1 Display & Small-Caps" },
+    { "slug": "aj-shresti", "name": "AJ Shresti", "weights": [400, 600, 800], "role": "System UI & Subtitles" },
+    { "slug": "aj-anushya", "name": "AJ Anushya", "weights": [400, 600, 800], "role": "Dense OCR & Body Reading" },
+    { "slug": "aj-talin", "name": "AJ Talin", "weights": [400, 600, 800], "role": "Connected Running Script" },
+    { "slug": "aaahhh-fonts-vibe", "name": "Aaahhh Fonts Vibe", "weights": [400, 600, 800], "role": "Sound of Font Smart Phonetic" }
+  ],
+  "ocrBenchmarkTargets": {
+    "pixelSizes": [10, 12, 16, 24, 32],
+    "disambiguatedPairs": ["0/O/o", "1/l/I", "rn/m", "cl/d", "Rs1/1u"],
+    "minimumLstmSequenceAccuracy": 0.97,
+    "colrReliefTable": "COLRv1+COLRv0+CPAL+SVGZ"
+  }
+}

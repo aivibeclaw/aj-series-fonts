@@ -1,0 +1,20 @@
+PackageIdentifier: Aivibe.AJSeriesFonts
+PackageVersion: 3.1.0
+PackageLocale: en-US
+Publisher: Aivibe Software Services Private Limited
+PublisherUrl: https://fonts.aivibe.cloud
+Author: Aravind Jayamohan
+PackageName: AJ Series & Aaahhh Fonts Vibe
+PackageUrl: https://fonts.aivibe.cloud
+License: LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1
+Copyright: Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved.
+ShortDescription: 5 canonical enterprise typefaces (27 styles).
+Tags:
+  - fonts
+  - typography
+  - colrv1
+  - opentype-svg
+  - multilingual
+  - sound-of-font
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

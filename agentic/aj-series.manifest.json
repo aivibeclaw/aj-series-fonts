@@ -1,0 +1,464 @@
+{
+  "catalog": "AJ Series & Aaahhh Fonts Vibe Enterprise Typeface System",
+  "selectorSchema": "./font-selector-schema.json",
+  "version": "3.1.0",
+  "legal": {
+    "exclusiveOwner": "Aravind Jayamohan, India",
+    "githubOwner": "ajaitech",
+    "officialOrgs": [
+      "aivibe-org",
+      "aivibeclaw"
+    ],
+    "authorizedLicensees": [
+      "Aivibe Software Services Private Limited, Chennai",
+      "AjAir Tech Mobility LLP",
+      "QRaise Structures"
+    ],
+    "ecosystemLicense": "LicenseRef-Aivibe-Open-Ecosystem-NoMod-NoResale-3.1",
+    "grantedEcosystemRights": [
+      "application_embedding",
+      "web_serving",
+      "ai_ocr_indexing",
+      "os_ui_use"
+    ],
+    "prohibitedThirdPartyActions": [
+      "glyph_modification",
+      "opentype_table_stripping",
+      "rebranding_or_renaming",
+      "copyright_or_metadata_alteration",
+      "standalone_commercial_font_resale"
+    ],
+    "fsType": 0,
+    "embeddingPolicy": "Installable Embedding (Web, PDF, Office, iOS, macOS, Android, Linux, Figma, Canva, Adobe CC, NVIDIA, Hugging Face, FinTech & ERP)",
+    "copyrightTransferable": false,
+    "warranty": "none; provided strictly as is",
+    "officialUrls": [
+      "https://fonts.aivibe.cloud",
+      "https://www.aivibe.in"
+    ]
+  },
+  "universalDesignLaws": [
+    "100% original handcrafted CAD vector outlines (zero third-party derivative contours)",
+    "Zero sharp edges across all letters, numerals, punctuation, bullets, triangles, and symbols",
+    "Exact CAP=720, BASE=0 flush landing metrics across all weights",
+    "Crisp non-thin Regular (400, 1.00x) with dramatic visible step to SemiBold (600, 1.28x) and ExtraBold (800, 1.58x)",
+    "Slim uniform CAP-height tabular numerals (0-9) with diagonal-slashed zero distinct from o/O",
+    "WCAG AAA & extreme low-res OCR disambiguation: 0/o/O, a/b/6, I/l/1, rn/m, cl/d",
+    "Default 3D Pressed Impression with Mild Gradient Effect embedded natively via hybrid COLRv1 (PaintLinearGradient) + COLRv0 + CPAL + OpenType-SVG (<linearGradient>) across all 27 styles"
+  ],
+  "families": [
+    {
+      "id": "aj-sahasvi",
+      "name": "AJ Sahasvi",
+      "primaryRole": "Level 1 Headers (H1)",
+      "recommendedUseCases": [
+        "h1-headers",
+        "editorial-subheadings",
+        "luxury-packaging",
+        "certificates",
+        "badges"
+      ],
+      "recommendedSizeRangePt": [
+        10,
+        144
+      ],
+      "weights": [
+        400,
+        600,
+        800
+      ],
+      "supportsItalic": false,
+      "italicAngleDeg": 0,
+      "xHeightUPM": 516,
+      "casingBehavior": "Strict All-Caps Titling: Uppercase=720 UPM Tall Cap, Lowercase=516 UPM Optical Small-Caps",
+      "strokeContrastRatio": 1.48,
+      "openTypeFeatures": [
+        "kern",
+        "mark",
+        "calt",
+        "dlig",
+        "tnum",
+        "pnum",
+        "zero",
+        "ss01",
+        "ss02",
+        "ss05",
+        "case",
+        "sups",
+        "subs",
+        "numr",
+        "dnom",
+        "frac"
+      ],
+      "strokeAnimationPathFile": "animation/stroke-paths/aj-sahasvi-strokes.json",
+      "level": "1",
+      "styleCount": 3
+    },
+    {
+      "id": "aj-shresti",
+      "name": "AJ Shresti",
+      "primaryRole": "Level 2 Sub-Headings & OS Default",
+      "recommendedUseCases": [
+        "hero-titles",
+        "os-system-ui",
+        "subtitles",
+        "dashboard-headers",
+        "navigation-titles"
+      ],
+      "recommendedSizeRangePt": [
+        10,
+        144
+      ],
+      "weights": [
+        400,
+        600,
+        800
+      ],
+      "supportsItalic": true,
+      "italicAngleDeg": 10,
+      "xHeightUPM": 534,
+      "openTypeFeatures": [
+        "kern",
+        "mark",
+        "calt",
+        "liga",
+        "dlig",
+        "tnum",
+        "pnum",
+        "zero",
+        "ss01",
+        "ss02",
+        "ss05",
+        "case",
+        "sups",
+        "subs",
+        "numr",
+        "dnom",
+        "frac"
+      ],
+      "strokeAnimationPathFile": "animation/stroke-paths/aj-shresti-strokes.json",
+      "level": "2",
+      "styleCount": 6
+    },
+    {
+      "id": "aj-talin",
+      "name": "AJ Talin",
+      "primaryRole": "Level 3 Script",
+      "recommendedUseCases": [
+        "brand-signatures",
+        "editorial-pullquotes",
+        "invitations",
+        "human-touch-accents",
+        "write-on-animations"
+      ],
+      "recommendedSizeRangePt": [
+        13,
+        120
+      ],
+      "weights": [
+        400,
+        600,
+        800
+      ],
+      "defaultUprightDeg": 0,
+      "supportsItalic": true,
+      "italicAngleDeg": 11,
+      "xHeightUPM": 492,
+      "contextualScriptConnectivity": "OpenType GSUB calt (.init/.medi/.high/.fina/.hfina) with ss02 separation for WCAG dyslexia mode",
+      "openTypeFeatures": [
+        "kern",
+        "mark",
+        "calt",
+        "dlig",
+        "tnum",
+        "pnum",
+        "zero",
+        "ss01",
+        "ss02",
+        "ss05",
+        "case",
+        "sups",
+        "subs",
+        "numr",
+        "dnom",
+        "frac"
+      ],
+      "strokeAnimationPathFile": "animation/stroke-paths/aj-talin-strokes.json",
+      "level": "3",
+      "styleCount": 6
+    },
+    {
+      "id": "aj-anushya",
+      "name": "AJ Anushya",
+      "primaryRole": "Body Reading",
+      "recommendedUseCases": [
+        "body-copy",
+        "app-icon-labels",
+        "analytics-tables",
+        "forms",
+        "legal-text",
+        "dyslexia-mode",
+        "ocr-pipelines"
+      ],
+      "recommendedSizeRangePt": [
+        8.5,
+        48
+      ],
+      "weights": [
+        400,
+        600,
+        800
+      ],
+      "supportsItalic": true,
+      "italicAngleDeg": 9,
+      "xHeightUPM": 556,
+      "zeroStubArchitecture": true,
+      "openTypeFeatures": [
+        "kern",
+        "mark",
+        "calt",
+        "liga",
+        "dlig",
+        "tnum",
+        "pnum",
+        "zero",
+        "ss01",
+        "ss02",
+        "ss05",
+        "case",
+        "sups",
+        "subs",
+        "numr",
+        "dnom",
+        "frac"
+      ],
+      "strokeAnimationPathFile": "animation/stroke-paths/aj-anushya-strokes.json",
+      "level": "body",
+      "styleCount": 6
+    },
+    {
+      "id": "aaahhh-fonts-vibe",
+      "name": "Aaahhh Fonts Vibe",
+      "primaryRole": "Sound of Font",
+      "recommendedUseCases": [
+        "multilingual-smart-typing",
+        "phonetic-transliteration",
+        "leave-letters-and-documents",
+        "fintech-erp-inputs",
+        "ai-agent-interfaces",
+        "ocr-ultra-clarity"
+      ],
+      "recommendedSizeRangePt": [
+        8.5,
+        96
+      ],
+      "weights": [
+        400,
+        600,
+        800
+      ],
+      "supportsItalic": true,
+      "italicAngleDeg": 9.5,
+      "xHeightUPM": 558,
+      "baseSkeleton": "AJ Anushya Zero-Stub + Acoustic Resonance Wave Handcrafted Masters",
+      "openTypeFeatures": [
+        "kern",
+        "mark",
+        "calt",
+        "liga",
+        "dlig",
+        "tnum",
+        "pnum",
+        "zero",
+        "ss01",
+        "ss02",
+        "ss05",
+        "ss06",
+        "ss07",
+        "ss08",
+        "ss09",
+        "ss10",
+        "ss11",
+        "ss12",
+        "ss13",
+        "ss14",
+        "ss15",
+        "ss16",
+        "ss17",
+        "ss18",
+        "case",
+        "sups",
+        "subs",
+        "numr",
+        "dnom",
+        "frac"
+      ],
+      "strokeAnimationPathFile": "animation/stroke-paths/aaahhh-fonts-vibe-strokes.json",
+      "level": "sound",
+      "styleCount": 6,
+      "soundOfFont": {
+        "numericCurrencyGuards": [
+          "1 -> 1",
+          "Rs1 -> Rs1",
+          "Rs 1u -> Rs 1u",
+          "1u/onnu/ondru -> ஒன்று (ta)"
+        ],
+        "openTypeStylisticSets": [
+          "ss06 (ta)",
+          "ss07 (hi)",
+          "ss08 (te)",
+          "ss09 (ml)",
+          "ss10 (kn)",
+          "ss11 (bn)",
+          "ss12 (pa)",
+          "ss13 (ar/ur)",
+          "ss14 (ja)",
+          "ss15 (ru)",
+          "ss16 (zh)",
+          "ss17 (th)",
+          "ss18 (am)"
+        ],
+        "inlineTriggerPattern": ":<lang>:<word>"
+      }
+    }
+  ],
+  "multilingualCoverage": {
+    "languages": [
+      "en",
+      "ta",
+      "ta-sen",
+      "hi",
+      "hi-prathmic",
+      "te",
+      "ml",
+      "kn",
+      "bn",
+      "mr",
+      "pa",
+      "ar",
+      "ur",
+      "sa",
+      "ja",
+      "ru",
+      "es",
+      "fr",
+      "de",
+      "ms",
+      "zh",
+      "ko",
+      "th",
+      "am",
+      "vi"
+    ],
+    "rtlLanguages": [
+      "ar",
+      "ur"
+    ],
+    "nativeNonLatinScripts": [
+      "Tamil",
+      "Devanagari",
+      "Telugu",
+      "Malayalam",
+      "Kannada",
+      "Bengali",
+      "Gurmukhi",
+      "Perso-Arabic",
+      "Cyrillic",
+      "Japanese Kana",
+      "Hangul",
+      "Han (core)",
+      "Thai",
+      "Ethiopic"
+    ],
+    "baseScript": "Latin"
+  },
+  "agenticSymbolCapabilities": {
+    "currencies": [
+      "$",
+      "€",
+      "£",
+      "¥",
+      "₹",
+      "₩",
+      "¢",
+      "¤",
+      "₽",
+      "₺",
+      "₿",
+      "฿",
+      "₫",
+      "₪",
+      "⃁",
+      "⃃",
+      "৳",
+      "௹"
+    ],
+    "sparklines": [
+      "▁",
+      "▂",
+      "▃",
+      "▄",
+      "▅",
+      "▆",
+      "▇",
+      "█"
+    ],
+    "kpiTrends": [
+      "▲",
+      "△",
+      "▼",
+      "▽",
+      "▶",
+      "◀",
+      "↗",
+      "↘"
+    ],
+    "statusBeacons": [
+      "●",
+      "○",
+      "◉",
+      "◎",
+      "◌",
+      "◐",
+      "◑",
+      "✓",
+      "✔",
+      "✕",
+      "✖",
+      "⚠",
+      "⚡",
+      "✦",
+      "✧",
+      "❖",
+      "⚙",
+      "⌖",
+      "⏻"
+    ],
+    "discretionaryLigaturesDlig": [
+      "->",
+      "<-",
+      "<->",
+      "=>",
+      "<=>",
+      "!=",
+      "<=",
+      ">=",
+      "+-",
+      "..."
+    ]
+  },
+  "protocol": "./mcp-typography-protocol.json",
+  "counts": {
+    "families": 5,
+    "styles": 27,
+    "binaries": 108,
+    "languages": 25,
+    "nonLatinScripts": 14
+  },
+  "distribution": {
+    "install": "https://fonts.aivibe.cloud/install",
+    "fontBaseUrl": "https://fonts.aivibe.cloud/fonts/",
+    "downloadBaseUrl": "https://fonts.aivibe.cloud/downloads/",
+    "releaseBaseUrl": "https://github.com/aivibe-org/aj-series-fonts/releases/download/v3.1.0/"
+  }
+}

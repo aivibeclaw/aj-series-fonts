@@ -1,0 +1,42 @@
+{
+  "name": "@aivibe/aj-series-fonts",
+  "version": "3.1.0",
+  "type": "module",
+  "description": "AJ Series & Aaahhh Fonts Vibe: 5 families (27 styles) CSS and OpenType ss06-ss18 helper",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": "Aravind Jayamohan, India",
+  "homepage": "https://fonts.aivibe.cloud",
+  "main": "./sound-of-font.js",
+  "module": "./sound-of-font.js",
+  "types": "./sound-of-font.d.ts",
+  "files": [
+    "LICENSE.md",
+    "index.css",
+    "3d-impressions.css",
+    "sri-manifest.json",
+    "sound-of-font.js",
+    "sound-of-font.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "types": "./sound-of-font.d.ts",
+      "default": "./sound-of-font.js"
+    },
+    "./css": "./index.css",
+    "./3d": "./3d-impressions.css",
+    "./sri": "./sri-manifest.json",
+    "./sound-of-font": {
+      "types": "./sound-of-font.d.ts",
+      "default": "./sound-of-font.js"
+    }
+  },
+  "keywords": [
+    "fonts",
+    "typography",
+    "aj-series",
+    "aaahhh-fonts-vibe",
+    "opentype",
+    "colrv1",
+    "multilingual"
+  ]
+}

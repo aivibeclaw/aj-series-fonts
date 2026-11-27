@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "productTitle": "AJ Series & Aaahhh Fonts Vibe (v3.1.0) — 5 Handcrafted 3D-Pressed Multilingual Fonts + Sound of Font Engine",
+  "productCode": "aj-series-sound-of-font-v3",
+  "vendor": "Aivibe Software Services Private Limited, Chennai",
+  "copyrightOwner": "Aravind Jayamohan, India",
+  "eulaDocument": "../../AIVIBE_ECOSYSTEM_FONT_LICENSE.md",
+  "deliveryOptions": [
+    {
+      "type": "Container",
+      "dockerfile": "./Dockerfile",
+      "cloudFormationTemplate": "./cloudformation-aj-fonts.yaml",
+      "supportedServices": ["Amazon ECS", "Amazon EKS", "AWS Fargate", "AWS App Runner"]
+    }
+  ],
+  "includedFamilies": ["AJ Sahasvi", "AJ Shresti", "AJ Anushya", "AJ Talin", "Aaahhh Fonts Vibe"],
+  "stylesCount": 27,
+  "binariesCount": 108,
+  "languagesCount": 24
+}

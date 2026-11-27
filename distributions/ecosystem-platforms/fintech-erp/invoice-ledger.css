@@ -1,0 +1,30 @@
+/* AJ Series & Aaahhh Fonts Vibe (v3.1.0) — FinTech, Banking, Core Ledger & Enterprise ERP Stylesheet
+ * Compatible with SAP Fiori, Oracle NetSuite, Odoo, ERPNext, Zoho Books/Finance, Stripe/Razorpay & Regulatory PDFs.
+ * Copyright (c) 2026 Aravind Jayamohan, India. All Rights Reserved.
+ */
+
+:root {
+  --aj-erp-heading: 'AJ Sahasvi', serif;
+  --aj-erp-ui: 'AJ Shresti', system-ui, sans-serif;
+  --aj-erp-signature: 'AJ Talin', cursive;
+  --aj-erp-body: 'AJ Anushya', sans-serif;
+  --aj-erp-smart-phonetic: 'Aaahhh Fonts Vibe', 'AJ Anushya', sans-serif;
+}
+
+.aj-fintech-kpi,
+.aj-erp-ledger-amount,
+table.aj-ledger td.numeric {
+  font-family: var(--aj-erp-body);
+  font-variant-numeric: tabular-nums slashed-zero;
+  font-feature-settings: "tnum" 1, "zero" 1, "calt" 1, "ss05" 1;
+}
+
+.aj-erp-invoice-header {
+  font-family: var(--aj-erp-heading);
+  font-weight: 800;
+}
+
+.aj-erp-smart-regional-input {
+  font-family: var(--aj-erp-smart-phonetic);
+  font-feature-settings: "calt" 1, "kern" 1, "ss05" 1;
+}

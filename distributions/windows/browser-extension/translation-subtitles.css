@@ -1,0 +1,34 @@
+/* AJ Series & Aaahhh Fonts Vibe Enterprise Typefaces v3.1.0 — Safari, Chrome, Edge & Brave Translation + Subtitle Binding
+ * Automated Translations : AJ Shresti Regular (400) for body · AJ Sahasvi ExtraBold (800) for headings
+ * Video Subtitles / Cues : AJ Shresti SemiBold (600) for crisp high-contrast legibility
+ */
+html.translated-ltr,
+html.translated-rtl,
+[translate="yes"],
+font[style*="vertical-align: inherit"] {
+  font-family: 'AJ Shresti', system-ui, -apple-system, sans-serif !important;
+  font-weight: 400;
+}
+
+html.translated-ltr h1,
+html.translated-ltr h2,
+html.translated-rtl h1,
+html.translated-rtl h2,
+[translate="yes"] h1,
+[translate="yes"] h2,
+h1 font[style*="vertical-align: inherit"],
+h2 font[style*="vertical-align: inherit"] {
+  font-family: 'AJ Sahasvi', Georgia, serif !important;
+  font-weight: 800 !important;
+}
+
+video::cue,
+::cue,
+.ytp-caption-segment,
+.player-timedtext-text-container span,
+.vjs-text-track-cue,
+.plyr__caption,
+.shaka-text-container span {
+  font-family: 'AJ Shresti', system-ui, -apple-system, sans-serif !important;
+  font-weight: 600 !important;
+}
